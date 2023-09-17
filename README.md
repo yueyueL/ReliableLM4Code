@@ -1,4 +1,4 @@
-# ReliableLM4Code
+![image](https://github.com/yueyueL/ReliableLM4Code/assets/60457190/ffea1cd8-7329-4c61-a12e-ebb7ac31511b)![image](https://github.com/yueyueL/ReliableLM4Code/assets/60457190/f6fd7409-7998-43ea-bea5-607ef6d9339f)![image](https://github.com/yueyueL/ReliableLM4Code/assets/60457190/8c8890cd-4d77-4bde-80d0-ef82d917757c)![image](https://github.com/yueyueL/ReliableLM4Code/assets/60457190/8e5009f2-a9b7-4859-8be2-2f27eb5ffd74)# ReliableLM4Code
 ![GitHub last commit]()
 ![badge]()
 
@@ -52,25 +52,122 @@ Please feel free to send a pull request to add papers and relevant content that 
 
 ## Data Collection and Labeling
 ### Sampling Bias
+Deep Learning Based Vulnerability Detection: Are We There Yet?
+Does data sampling improve deep learning-based vulnerability detection? Yeas! and Nays!
+On the Value of Oversampling for Deep Learning in Software Defect Prediction
+Robust Learning of Deep Predictive Models from Noisy and Imbalanced Software Engineering Datasets
+An empirical study of deep learning models for vulnerability detection
+
 ### Label Inaccuracy
+Robust Learning of Deep Predictive Models from Noisy and Imbalanced Software Engineering Datasets
+XCode: Towards Cross-Language Code Representation with Large-Scale Pre-Training
+Understanding and Tackling Label Errors in Deep Learning-Based Vulnerability Detection (Experience Paper)
+
 ### Data Noise
+Slice-Based Code Change Representation Learning
+Are we building on the rock? on the importance of data preprocessing for code summarization
+Neural-Machine-Translation-Based Commit Message Generation: How Far Are We?
 
 ## System Design and Learning
 ### Data Snooping
+AutoTransform: automated code transformation to support modern code review process
+Can Neural Clone Detection Generalize to Unseen Functionalitiesƒ
+CD-VulD: Cross-Domain Vulnerability Discovery Based on Deep Domain Adaptation
+Deep just-in-time defect prediction: how far are we?
+Patching as translation: the data and the metaphor
+An empirical study of deep learning models for vulnerability detection
+Keeping Pace with Ever-Increasing Data: Towards Continual Learning of Code Intelligence Models
+Revisiting Learning-based Commit Message Generation
+Syntax and Domain Aware Model for Unsupervised Program Translation
+How Effective Are Neural Networks for Fixing Security Vulnerabilities
+Towards More Realistic Evaluation for Neural Test Oracle Generation
+On the Evaluation of Neural Code Summarization
+
 ### Spurious Correlations
+Deep Learning Based Vulnerability Detection: Are We There Yet?
+Diet code is healthy: simplifying programs for pre-trained models of code
+Explaining mispredictions of machine learning models using rule induction
+Interpreting Deep Learning-based Vulnerability Detector Predictions Based on Heuristic Searching
+Thinking Like a Developer? Comparing the Attention of Humans with Neural Models of Code
+Vulnerability detection with fine-grained interpretations
+What do they capture? a structural analysis of pre-trained language models for source code
+An empirical study of deep learning models for vulnerability detection
+Towards Efficient Fine-Tuning of Pre-trained Code Models: An Experimental Study and Beyond
+
 ### Inappropriate Data Proprocessing
+Deep Learning Based Vulnerability Detection: Are We There Yet?
+
 ### Inappropriate Model Design
+Deep Learning Based Vulnerability Detection: Are We There Yet?
+Enhancing DNN-Based Binary Code Function Search With Low-Cost Equivalence Checking
+Improving automatic source code summarization via deep reinforcement learning
+Patching as translation: the data and the metaphor
+Reinforcement-Learning-Guided Source Code Summarization Using Hierarchical Attention
+XCode: Towards Cross-Language Code Representation with Large-Scale Pre-Training
+RepresentThemAll: A Universal Learning Representation of Bug Reports
+Template-based Neural Program Repair
 
 ## Performance Evaluation
 ### Inappropriate Baseline
+Towards More Realistic Evaluation for Neural Test Oracle Generation
+
 ### Inappropriate Test Set
+Deep Learning Based Program Generation From Requirements Text: Are We There Yet?
+Generating realistic vulnerabilities via neural code editing: an empirical study
+
 ### Low Reproducibility
+An extensive study on pre-trained models for program understanding and generation
+
 ### Inappropriate Performance Measures
+Deep Learning Based Vulnerability Detection: Are We There Yet?
+Improving automatic source code summarization via deep reinforcement learning
+Multi-task learning based pre-trained language model for code completion
+On the Value of Oversampling for Deep Learning in Software Defect Prediction
+Patching as translation: the data and the metaphor
+Reinforcement-Learning-Guided Source Code Summarization Using Hierarchical Attention
+SynShine: Improved Fixing of Syntax Errors
+An empirical study of deep learning models for vulnerability detection
+Revisiting Learning-based Commit Message Generation
+Tare: Type-Aware Neural Program Repair
+How Effective Are Neural Networks for Fixing Security Vulnerabilities
+Towards More Realistic Evaluation for Neural Test Oracle Generation
+GitHub Copilot AI pair programmer: Asset or Liability?
+
 
 ## Deployment and Maintainance
 ### Lab-only evaluation
+Examining Zero-Shot Vulnerability Repair with Large Language Models
+A Performance-Sensitive Malware Detection System Using Deep Learning on Mobile Devices
+Diet code is healthy: simplifying programs for pre-trained models of code
+When Code Completion Fails: A Case Study on Real-World Completions
+Lost at C: A User Study on the Security Implications of Large Language Model Code Assistants
+Grounded Copilot: How Programmers Interact with Code-Generating Models
+LLaMA-Reviewer: Advancing Code Review Automation with Large Language Models through Parameter-Efficient Fine-Tuning
+Compressing Pre-trained Models of Code into 3 MB
+
 ### Model Attack Threats
+You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion
+Adversarial Robustness of Deep Code Comment Generation
+An extensive study on pre-trained models for program understanding and generation
+Generating Adversarial Examples for Holding Robustness of Source Code Processing Models
+Semantic Robustness of Models of Source Code
+You see what I want you to see: poisoning vulnerabilities in neural code search
+Contrabert: Enhancing code pre-trained models via contrastive learning
+On the robustness of code generation techniques: An empirical study on github copilot
+Two sides of the same coin: Exploiting the impact of identifiers in neural code comprehension
+Multi-target Backdoor Attacks for Code Pre-trained Models
+Backdooring Neural Code Search
+ReCode: Robustness Evaluation of Code Generation Models
+Natural Attack for Pre-trained Models of Code
+Coprotector: Protect open-source code against unauthorized training usage with data poisoning
+On the Security Vulnerabilities of Text-to-SQL Models
+
 ### Security concerns in generated code
+Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions
+Automated repair of programs from large language models
+Cctest: Testing and repairing code completion systems
+Analyzing Leakage of Personally Identifiable Information in Language Models
+CodexLeaks: Privacy Leaks from Code Generation Language Models in GitHub Copilot
 
 # Research Groups
 
