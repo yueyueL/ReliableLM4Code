@@ -41,15 +41,55 @@ Please feel free to send a pull request to add papers and relevant content that 
 - [Research Groups](#research-groups)
 - [Venues](#venues)
 
+# SLR
+## SLR Process
+### Manual Search Venues
+### Strategy
+## SLR Tools
+
 # Papers
 ## Type Inference
 
 - **Dos and Don'ts of Machine Learning in Computer Security** (2022), USENIX Security 22, D Arp, et al. [[pdf]](https://www.usenix.org/system/files/sec22-arp.pdf)
-- **Machine/deep learning for software engineering: A systematic literature review** (2022), TSE 22, S Wang, et al. [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9772253)
-- **Trustworthy AI: From principles to practices** (2023), arxiv, B Li, et al. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3555803)
+- **Machine/deep learning for software engineering: A systematic literature review** (2022), TSE 22, Simin Wang, et al. [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9772253)
+- **Trustworthy AI: From principles to practices** (2023), arxiv, BO Li, et al. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3555803)
 
 ## Software Development
 ### Code Generation
+- **An extensive study on pre-trained models for program understanding and generation** (2022), ISSTA 22, Zhengran Zeng, et al. [[pdf]](https://lingming.cs.illinois.edu/publications/issta2022.pdf)
+- **On the robustness of code generation techniques: An empirical study on github copilot** (2023), arixv, Antonio Mastropaolo, Luca Pascarella, et al. [[pdf]](https://arxiv.org/pdf/2302.00438.pdf)
+- **Multi-target Backdoor Attacks for Code Pre-trained Models** (2023), arxiv, Yanzhou Li, Shangqing Liu, and Kangjie Chen, et al. [[pdf]](https://arxiv.org/pdf/2306.08350.pdf)
+- **ReCode: Robustness Evaluation of Code Generation Models** (2022), arxiv, Shiqi Wang, Zheng Li, et al. [[pdf]](https://arxiv.org/pdf/2212.10264.pdf)
+- **Coprotector: Protect open-source code against unauthorized training usage with data poisoning** (2022), WWW 22, Zhensu Sun, et al. [[pdf]](https://arxiv.org/pdf/2110.12925.pdf)
+- **On the Security Vulnerabilities of Text-to-SQL Models** (2022), arxiv, Xutan Peng, et al. [[pdf]](https://arxiv.org/pdf/2211.15363.pdf)
+### Code Summarization
+- **An extensive study on pre-trained models for program understanding and generation**
+- **Semantic Robustness of Models of Source Code**
+- **Coprotector: Protect open-source code against unauthorized training usage with data poisoning** (2022), WWW 22, Zhensu Sun, et al. [[pdf]](https://arxiv.org/pdf/2110.12925.pdf)
+### Code Search
+### Code Completion
+### Code Translation
+### Code Classification
+### Code Representation
+### Code Understanding
+### Code Comment Generation
+### Method Naming
+### Named Entity Recognition
+### Authorship Attribution
+
+## Software Quality Assurance
+### Vulnerability Detection
+### Test generation
+
+## Software Maintainance
+### Clone Detection
+### Program Repair
+### Defect Prediction
+### Commit Message Generation
+### Duplicate Bug Report Detection
+### Bug Report Summarization
+### Bug-Fix Commit Identification
+### Bug Report Classification
 
 # Research Groups
 
