@@ -44,7 +44,7 @@ Please feel free to send a pull request to add papers and relevant content that 
 # Papers
 ## Type Inference
 
-- **Dos and Don'ts of Machine Learning in Computer Security** (2022), USENIX Security 22, D Arp, et al. [pdf](https://www.usenix.org/system/files/sec22-arp.pdf)
+- **Dos and Don'ts of Machine Learning in Computer Security** (2022), USENIX Security 22, D Arp, et al. [[pdf]](https://www.usenix.org/system/files/sec22-arp.pdf)
 - **Machine/deep learning for software engineering: A systematic literature review** (2022), TSE 22, S Wang, et al. [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9772253)
 - **Trustworthy AI: From principles to practices** (2023), arxiv, B Li, et al. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3555803)
 
