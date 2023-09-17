@@ -11,33 +11,24 @@ Please feel free to send a pull request to add papers and relevant content that 
 ## Content
 - [Papers](#papers)
     - [Type Inference](#type-inference)
-    - [Software Development](#software-development)
-        - [Code Generation](#code-generation)
-        - [Code Summarization](#code-summarization)
-        - [Code Search](#code-search)
-        - [Code Completion](#code-completion)
-        - [Code Translation](#code-translation)
-        - [Code Classification](#code-classification)
-        - [Code Representation](#code-representation)
-        - [Code Understanding](#code-understanding)
-        - [Code Comment Generation](#code-commnet-generation)
-        - [Method Naming](#method-naming)
-        - [Named Entity Recognition](#name-entity-recognition)
-        - [Authorship Attribution](#authorship-attribution)
- 
-    - [Software Quality Assurance](#software-quality-assurance)
-        - [Vulnerability Detection](#vulnerability-detection)
-        - [Test generation](#test-generation)
- 
-    - [Software Maintainance](#software-maintainance)
-        - [Clone Detection](#clone-detextion)
-        - [Program Repair](#program-repair)
-        - [Defect Prediction](#defect-prediction)
-        - [Commit Message Generation](#commit-message-generation)
-        - [Duplicate Bug Report Detection](#duplicate-bug-report-detection)
-        - [Bug Report Summarization](#bug-report-summarization)
-        - [Bug-Fix Commit Identification](#bug-fix-commit-identification)
-        - [Bug Report Classification](#bug-report-classification)
+    - [Data Collection and Labeling](#data)
+        - [Sampling Bias](#sampling-bias)
+        - [Label Inaccuracy](#label-inaccuracy)
+        - [Data Noise](#data-noise)
+    - [System Design and Learning](#design)
+        - [Data Snooping](#data-snooping)
+        - [Spurious Correlations](#spurious-correlations)
+        - [Inappropriate Data Proprocessing](#data-proprocessing)
+        - [Inappropriate Model Design](#model-design)
+    - [Performance Evaluation](#evaluation)
+        - [Inappropriate Baseline](#baseline)
+        - [Inappropriate Test Set](#test-set)
+        - [Low Reproducibility](#low-reproducibility)
+        - [Inappropriate Performance Measures](#performance-measures)
+    - [Deployment and Maintainance](#deployment)
+        - [Lab-only evaluation](#lab-only)
+        - [Model Attack Threats](#model-attack)
+        - [Security concerns in generated code](#security-concerned)
 - [Research Groups](#research-groups)
 - [Venues](#venues)
 
@@ -54,42 +45,27 @@ Please feel free to send a pull request to add papers and relevant content that 
 - **Machine/deep learning for software engineering: A systematic literature review** (2022), TSE 22, Simin Wang, et al. [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9772253)
 - **Trustworthy AI: From principles to practices** (2023), arxiv, BO Li, et al. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3555803)
 
-## Software Development
-### Code Generation
-- **An extensive study on pre-trained models for program understanding and generation** (2022), ISSTA 22, Zhengran Zeng, et al. [[pdf]](https://lingming.cs.illinois.edu/publications/issta2022.pdf)
-- **On the robustness of code generation techniques: An empirical study on github copilot** (2023), arixv, Antonio Mastropaolo, Luca Pascarella, et al. [[pdf]](https://arxiv.org/pdf/2302.00438.pdf)
-- **Multi-target Backdoor Attacks for Code Pre-trained Models** (2023), arxiv, Yanzhou Li, Shangqing Liu, and Kangjie Chen, et al. [[pdf]](https://arxiv.org/pdf/2306.08350.pdf)
-- **ReCode: Robustness Evaluation of Code Generation Models** (2022), arxiv, Shiqi Wang, Zheng Li, et al. [[pdf]](https://arxiv.org/pdf/2212.10264.pdf)
-- **Coprotector: Protect open-source code against unauthorized training usage with data poisoning** (2022), WWW 22, Zhensu Sun, et al. [[pdf]](https://arxiv.org/pdf/2110.12925.pdf)
-- **On the Security Vulnerabilities of Text-to-SQL Models** (2022), arxiv, Xutan Peng, et al. [[pdf]](https://arxiv.org/pdf/2211.15363.pdf)
-### Code Summarization
-- **An extensive study on pre-trained models for program understanding and generation**
-- **Semantic Robustness of Models of Source Code**
-- **Coprotector: Protect open-source code against unauthorized training usage with data poisoning** (2022), WWW 22, Zhensu Sun, et al. [[pdf]](https://arxiv.org/pdf/2110.12925.pdf)
-### Code Search
-### Code Completion
-### Code Translation
-### Code Classification
-### Code Representation
-### Code Understanding
-### Code Comment Generation
-### Method Naming
-### Named Entity Recognition
-### Authorship Attribution
+## Data Collection and Labeling
+### Sampling Bias
+### Label Inaccuracy
+### Data Noise
 
-## Software Quality Assurance
-### Vulnerability Detection
-### Test generation
+## System Design and Learning
+### Data Snooping
+### Spurious Correlations
+### Inappropriate Data Proprocessing
+### Inappropriate Model Design
 
-## Software Maintainance
-### Clone Detection
-### Program Repair
-### Defect Prediction
-### Commit Message Generation
-### Duplicate Bug Report Detection
-### Bug Report Summarization
-### Bug-Fix Commit Identification
-### Bug Report Classification
+## Performance Evaluation
+### Inappropriate Baseline
+### Inappropriate Test Set
+### Low Reproducibility
+### Inappropriate Performance Measures
+
+## Deployment and Maintainance
+### Lab-only evaluation
+### Model Attack Threats
+### Security concerns in generated code
 
 # Research Groups
 
