@@ -30,8 +30,8 @@ Please feel free to send a pull request to add papers and relevant content that 
         - [Test generation](#test-generation)
  
     - [Software Maintainance](#software-maintainance)
-        - [Clone Detection](#clone detextion)
-        - [Program Repair](#program repair)
+        - [Clone Detection](#clone-detextion)
+        - [Program Repair](#program-repair)
         - [Defect Prediction](#defect-prediction)
         - [Commit Message Generation](#commit-message-generation)
         - [Duplicate Bug Report Detection](#duplicate-bug-report-detection)
