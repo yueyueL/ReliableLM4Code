@@ -11,10 +11,42 @@ Please feel free to send a pull request to add papers and relevant content that 
 ## Content
 - [Papers](#papers)
     - [Type Inference](#type-inference)
+    - [Software Development](#software-development)
+        - [Code Generation](#code-generation)
+        - [Code Summarization](#code-summarization)
+        - [Code Search](#code-search)
+        - [Code Completion](#code-completion)
+        - [Code Translation](#code-translation)
+        - [Code Classification](#code-classification)
+        - [Code Representation](#code-representation)
+        - [Code Understanding](#code-understanding)
+        - [Code Comment Generation](#code-commnet-generation)
+        - [Method Naming](#method-naming)
+        - [Named Entity Recognition](#name-entity-recognition)
+        - [Authorship Attribution](#authorship-attribution)
+ 
+    - [Software Quality Assurance](#software-quality-assurance)
+        - [Vulnerability Detection](#vulnerability-detection)
+        - [Test generation](#test-generation)
+ 
+    - [Software Maintainance](#software-maintainance)
+        - [Clone Detection](#clone detextion)
+        - [Program Repair](#program repair)
+        - [Defect Prediction](#defect-prediction)
+        - [Commit Message Generation](#commit-message-generation)
+        - [Duplicate Bug Report Detection](#duplicate-bug-report-detection)
+        - [Bug Report Summarization](#bug-report-summarization)
+        - [Bug-Fix Commit Identification](#bug-fix-commit-identification)
+        - [Bug Report Classification](#bug-report-classification)
 - [Research Groups](#research-groups)
 - [Venues](#venues)
 
 # Papers
+## Type Inference
+
+- **Dos and Don'ts of Machine Learning in Computer Security** (2022), USENIX Security 22, D Arp, et al. [pdf](https://www.usenix.org/system/files/sec22-arp.pdf)
+- **Machine/deep learning for software engineering: A systematic literature review** (2022), TSE 22, S Wang, et al. [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9772253)
+- **Trustworthy AI: From principles to practices** (2023), arxiv, B Li, et al. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3555803)
 
 # Research Groups
 
