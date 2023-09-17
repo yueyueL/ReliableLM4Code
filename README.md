@@ -9,6 +9,11 @@ Please feel free to send a pull request to add papers and relevant content that 
 > Note: to quickly access this page, use []()
 
 ## Content
+- [SLR](#slr)
+    - [SLR process](#slr-process)
+        - [Strategy](#strategy)
+        - [Manual Search Venues](#manual-venues)
+    - [Tools](#tools)
 - [Papers](#papers)
     - [Type Inference](#type-inference)
     - [Data Collection and Labeling](#data)
