@@ -79,6 +79,7 @@ the peer-review process.
 ***Manual Search Venues:***
 <details>
 <summary>Click to expand</summary>
+    
 | Acronym | <center/>Venues<center> |
 |---------|--------|
 |ASE |International Conference on Automated Software Engineering|
