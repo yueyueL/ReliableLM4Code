@@ -138,9 +138,14 @@ the peer-review process.
 - **Slice-Based Code Change Representation Learning** (2023), SANER, F Zhang, et al. [[pdf]](https://chenbihuan.github.io/paper/saner23-zhang-ccs2vec.pdf)
 - **Are we building on the rock? on the importance of data preprocessing for code summarization** (2022), FSE, L Shi, et al. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3540250.3549145)
 - **Neural-Machine-Translation-Based Commit Message Generation: How Far Are We?** (2018), ASE, Z Liu, et al. [[pdf]](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5299&context=sis_research)
+
 </details>
 
 ## System Design and Learning
+
+<details>
+<summary>Click to expand</summary>
+
 ### *Data Snooping*
 - **AutoTransform: automated code transformation to support modern code review process** (2022), ICSE, Thongtanunam, Patanamon, Chanathip Pornprasit, and Chakkrit Tantithamthavorn. [[pdf]](https://www.researchgate.net/profile/Patanamon-Thongtanunam-2/publication/358486098_AutoTransform_Automated_Code_Transformation_to_Support_Modern_Code_Review_Process/links/6204767d075f695e892eb1f4/AutoTransform-Automated-Code-Transformation-to-Support-Modern-Code-Review-Process.pdf)
 - **Can Neural Clone Detection Generalize to Unseen Functionalitiesƒ** (2021), ASE, C Liu, et al. [[pdf]](https://www.microsoft.com/en-us/research/uploads/prod/2022/01/Can-Neural-Clone-Detection-Generalize-to-UnseenFunctionalities.pdf)
@@ -179,7 +184,13 @@ the peer-review process.
 - **RepresentThemAll: A Universal Learning Representation of Bug Reports** (2023), ICSE, S Fang, T Zhang, Y Tan, et al. [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10172597)
 - **Template-based Neural Program Repair** (2023), ICSE, X Meng, X Wang, H Zhang, et al. [[pdf]](https://github.com/mxx1219/TENURE/blob/main/paper.pdf)
 
+</details>
+
 ## Performance Evaluation
+
+<details>
+<summary>Click to expand</summary>
+
 ### *Inappropriate Baseline*
 - **Towards More Realistic Evaluation for Neural Test Oracle Generationr** (2023), ARXIV, Z Liu, K Liu, X Xia, et al. [[pdf]](https://arxiv.org/pdf/2305.17047)
 
@@ -205,7 +216,13 @@ the peer-review process.
 - **Towards More Realistic Evaluation for Neural Test Oracle Generation** (2305), ISSTA, Z Liu, K Liu, X Xia, et al. [[pdf]](https://arxiv.org/pdf/2305.17047)
 - **GitHub Copilot AI pair programmer: Asset or Liability?** (2023), JSS, AM Dakhel, V Majdinasab, A Nikanjam, et al. [[pdf]](https://arxiv.org/pdf/2206.15331)
 
+</details>
+
 ## Deployment and Maintainance
+
+<details>
+<summary>Click to expand</summary>
+
 ### *Lab-only evaluation*
 - **Examining Zero-Shot Vulnerability Repair with Large Language Models** (2023), S&P, H Pearce, B Tan, B Ahmad, et al. [[pdf]](https://arxiv.org/pdf/2112.02125)
 - **A Performance-Sensitive Malware Detection System Using Deep Learning on Mobile Devices** (2020), TIFS, R Feng, S Chen, X Xie, et al. [[pdf]](https://arxiv.org/pdf/2005.04970)
@@ -239,6 +256,8 @@ the peer-review process.
 - **Cctest: Testing and repairing code completion systems** (2023), ICSE, Z Li, C Wang, Z Liu, et al. [[pdf]](https://arxiv.org/pdf/2208.08289)
 - **Analyzing Leakage of Personally Identifiable Information in Language Models** (2023), S&P, N Lukas, A Salem, R Sim, et al. [[pdf]](https://arxiv.org/pdf/2302.00539)
 - **CodexLeaks: Privacy Leaks from Code Generation Language Models in GitHub Copilot** (2023), USENIX Security, L Niu, S Mirza, Z Maradni, et al. [[pdf]](https://www.usenix.org/system/files/usenixsecurity23-niu.pdf)
+
+</details>
 # Research Groups
 
 
