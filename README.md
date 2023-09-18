@@ -89,7 +89,7 @@ the peer-review process.
 ## Tools
 **Paper Collection**
 - [slrtools](https://github.com/out0/slrtool): Tool for Performing Systematic Literature Review
-- [elsapy](https://github.com/ElsevierDev/elsapy): https://github.com/ElsevierDev/elsapy
+- [elsapy](https://github.com/ElsevierDev/elsapy): A Python module for use with api.elsevier.com.
 - [dblp-python](https://github.com/ElsevierDev/elsapy): A simple Python wrapper around the DBLP API, currently supporting author search and author and publication lookup.
 
 **SnowBalling:**
