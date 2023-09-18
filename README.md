@@ -10,8 +10,8 @@ Please feel free to send a pull request to add papers and relevant content that 
 
 ## Content
 - [SLR](#slr)
-    - [SLR Process](#slr-process)
-    - [SLR Methodology](#methodology)
+    - [Process](#slr-process)
+    - [Methodology](#methodology)
     - [Tools](#tools)
 - [Papers](#papers)
     - [Type Inference](#type-inference)
@@ -37,7 +37,7 @@ Please feel free to send a pull request to add papers and relevant content that 
 - [Venues](#venues)
 
 # SLR
-## SLR Process
+## Process
 
 To conduct a systematic review, we need to follow complete steps to collect, analyze and review the relevant literature works.
 
@@ -53,7 +53,7 @@ To conduct a systematic review, we need to follow complete steps to collect, ana
 - Snowballing/Citation Tracking
 - Data Synthesis
 - Write the Report
-## SLR Methodology
+## Methodology
 ***Search String:***
 - ***Keywords related to LMs:*** "LLM" OR "Large Language Model*" OR "Language Model*" OR
 "LM" OR "PLM" OR "Pre-trained" OR "Pre-training" OR "Natural Language Processing"
@@ -86,7 +86,7 @@ the peer-review process.
 |TOSEM |Transactions on Software Engineering and Methodology|
 |TSE| Transactions on Software Engineering|
 
-## SLR Tools
+## Tools
 **Paper Collection**
 - [slrtools](https://github.com/out0/slrtool): Tool for Performing Systematic Literature Review
 - [elsapy](https://github.com/ElsevierDev/elsapy): https://github.com/ElsevierDev/elsapy
