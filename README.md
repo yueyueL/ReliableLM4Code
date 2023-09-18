@@ -243,7 +243,27 @@ the peer-review process.
 - **CodexLeaks: Privacy Leaks from Code Generation Language Models in GitHub Copilot** (2023), USENIX Security, L Niu, S Mirza, Z Maradni, et al. [[pdf]](https://www.usenix.org/system/files/usenixsecurity23-niu.pdf)
 
 # Public Tools
+-  **ACCENT** (Adversarial Code Comment gENeraTor)
+    -  masked training, an identifier substitution approach to craft adversarial code snippets, which are syntactically correct and semantically close to the original code snippet, but may mislead the DNNs to produce completely irrelevant code comments.
+    - [[pdf]](), [[code]](https://github.com/zhangxq-1/ACCENT-repository)
+- **AutoTransform**
+    - through addressing the out-off vocabulary, BPE(Byte-Pair Encoding), a Transformer-based NMT architecture to handle long sequences
+    - [[pdf]](), [[code]]()
+- **An evaluation methodology that can systematically measure the crossfunctionality generalizability of neural clone detection**
+    - training set with diverse functionalities，out-of-vocabulary problem， incorporating locality into model architecture
+    - [[pdf]](https://ieeexplore.ieee.org/document/9678907), [[code]](https://github.com/thousfeet/Functionality-generalization)
+- **CD-VulD**
+    - learn cross-domain representations, a new system for Cross Domain Software Vulnerability Discovery using deep learning (DL) and domain adaptation (DA).
+    - [[pdf]](), [[code]]()
 
+# New benchmark
+- **Deep Learning Based Program Generation From Requirements Text: Are We There Yet?**
+    - ReCa, a large scale dataset that is composed of longer requirements as well as validated implementations
+    - [[pdf]](), [[ReCa]](https://github.com/ds4an/CoDas4CG)
+- **Deep Learning Based Vulnerability Detection: Are We There Yet?**
+    - curated a real-world dataset from developer/user reported vulnerabilities of Chromium and Debian projects
+    - [[pdf]](),[[benchmark]](https://bit.ly/3bX30ai)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  12
 
 # Research Groups
 
