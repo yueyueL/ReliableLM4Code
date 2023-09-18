@@ -93,7 +93,7 @@ the peer-review process.
 - [dblp-python](https://github.com/ElsevierDev/elsapy): A simple Python wrapper around the DBLP API, currently supporting author search and author and publication lookup.
 
 **SnowBalling:**
-- [Litmap](https://app.litmaps.com/): Litmaps are visual citation maps that help you understand how your research connects. (*Both DOI list and Title list are ok to search !!!*)
+- [Litmap](https://app.litmaps.com/): Litmaps are visual citation maps that help you understand how your research connects. (*Both DOI list and Title list are ok for search !!!*)
 - [SnowGlobe](https://snowglobe.soc.northwestern.edu/): SnowGlobe is a program that assists with literature searching, using a technique called snowballing. (*Articles written after 2021 will not be able to be searched or found !!!*)
 - [CitationGecko](https://www.citationgecko.com/): This is a tool that uses the citation relations between scientific papers to help researchers find interesting and relevant paper.
 
