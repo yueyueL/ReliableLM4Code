@@ -43,7 +43,6 @@ To conduct a systematic review, we need to follow complete steps to collect, ana
 
 ![Study_identification_and_selection_process](https://github.com/yueyueL/ReliableLM4Code/assets/60457190/e1b73870-a7da-489b-bf6c-d0577375f252)
 
-
 **Steps:**
 - Define the Review Questions
 - Develop the Protocol
@@ -78,6 +77,8 @@ the peer-review process.
 - Papers presenting analyses of cyber attacks or Operating Systems
 
 ***Manual Search Venues:***
+<details>
+<summary>Click to expand</summary>
 | Acronym | <center/>Venues<center> |
 |---------|--------|
 |ASE |International Conference on Automated Software Engineering|
@@ -86,7 +87,8 @@ the peer-review process.
 |ISSTA |International Symposium on Software Testing and Analysis|
 |TOSEM |Transactions on Software Engineering and Methodology|
 |TSE| Transactions on Software Engineering|
-
+</details>
+    
 ## Tools
 **Paper Collection**
 - [slrtools](https://github.com/out0/slrtool): Tool for Performing Systematic Literature Review
