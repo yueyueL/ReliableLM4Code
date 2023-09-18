@@ -43,8 +43,9 @@ To conduct a systematic review, we need to follow complete steps to collect, ana
 
 ![Study_identification_and_selection_process](https://github.com/yueyueL/ReliableLM4Code/assets/60457190/e1b73870-a7da-489b-bf6c-d0577375f252)
 
+**Steps:**
 <details>
-<summary>**Steps:**</summary>
+<summary>Click to expand</summary>
     
 - Define the Review Questions
 - Develop the Protocol
