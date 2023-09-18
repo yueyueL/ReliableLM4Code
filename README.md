@@ -107,24 +107,24 @@ the peer-review process.
 - **Trustworthy AI: From principles to practices** (2023), arxiv, BO Li, et al. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3555803)
 
 ## Data Collection and Labeling
-### Sampling Bias
+### *Sampling Bias*
 - **Deep Learning Based Vulnerability Detection** (2021), , S Chakraborty, R Krishna, Y Ding… , et al.[[pdf]](https://arxiv.org/pdf/2009.07235)
 - **Does data sampling improve deep learning-based vulnerability detection? Yeas! and Nays!** (2023), , X Yang, S Wang, Y Li, S Wang , et al.[[pdf]](https://shaoweiwang2010.github.io/papers/ICSE_2023_Sampling_Vulnerablity.pdf)
 - **On the Value of Oversampling for Deep Learning in Software Defect Prediction** (2021), , R Yedida, T Menzies , et al.[[pdf]](https://arxiv.org/pdf/2008.03835)
 - **Robust Learning of Deep Predictive Models from Noisy and Imbalanced Software Engineering Datasets** (2022), , Z Li, M Pan, Y Pei, T Zhang, L Wang, X Li , et al.[[pdf]](https://scholar.archive.org/work/fls7wlezhrdappl2f46gb6u5de/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3551349.3556941)- **An empirical study of deep learning models for vulnerability detection** (2023), , B Steenhoek, MM Rahman, R Jiles… , et al.[[pdf]](https://arxiv.org/pdf/2212.08109)
 
-### Label Inaccuracy
+### *Label Inaccuracy*
 - **Robust Learning of Deep Predictive Models from Noisy and Imbalanced Software Engineering Datasets** (2022), , Z Li, M Pan, Y Pei, T Zhang, L Wang, X Li , et al.[[pdf]](https://scholar.archive.org/work/fls7wlezhrdappl2f46gb6u5de/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3551349.3556941)
 - **XCode: Towards Cross-Language Code Representation with Large-Scale Pre-Training** (2022), , Z Lin, G Li, J Zhang, Y Deng, X Zeng, Y Zhang… , et al.[[pdf]]()
 - **Understanding and Tackling Label Errors in Deep Learning-Based Vulnerability Detection (Experience Paper)** (2023), , X Nie, N Li, K Wang, S Wang, X Luo… , et al.[[pdf]]()
 
-### Data Noise
+### *Data Noise*
 - **Slice-Based Code Change Representation Learning** (2023), , F Zhang, B Chen, Y Zhao… , et al.[[pdf]](https://chenbihuan.github.io/paper/saner23-zhang-ccs2vec.pdf)
 - **Are we building on the rock? on the importance of data preprocessing for code summarization** (2022), , L Shi, F Mu, X Chen, S Wang, J Wang, Y Yang… , et al.[[pdf]](https://dl.acm.org/doi/pdf/10.1145/3540250.3549145)
 - **Neural-Machine-Translation-Based Commit Message Generation: How Far Are We?** (2018), , Z Liu, X Xia, AE Hassan, D Lo, Z Xing… , et al.[[pdf]](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5299&context=sis_research)
 
 ## System Design and Learning
-### Data Snooping
+### *Data Snooping*
 - **AutoTransform: automated code transformation to support modern code review process** (2022), , P Thongtanunam, C Pornprasit… , et al.[[pdf]](https://www.researchgate.net/profile/Patanamon-Thongtanunam-2/publication/358486098_AutoTransform_Automated_Code_Transformation_to_Support_Modern_Code_Review_Process/links/6204767d075f695e892eb1f4/AutoTransform-Automated-Code-Transformation-to-Support-Modern-Code-Review-Process.pdf)
 - **Can Neural Clone Detection Generalize to Unseen Functionalitiesƒ** (2021), , C Liu, Z Lin, JG Lou, L Wen… , et al.[[pdf]](https://www.microsoft.com/en-us/research/uploads/prod/2022/01/Can-Neural-Clone-Detection-Generalize-to-UnseenFunctionalities.pdf)
 - **CD-VulD: Cross-Domain Vulnerability Discovery Based on Deep Domain Adaptation** (2020), , S Liu, G Lin, L Qu, J Zhang, O De Vel… , et al.[[pdf]]()
@@ -138,7 +138,7 @@ the peer-review process.
 - **Towards More Realistic Evaluation for Neural Test Oracle Generation** (2305), , Z Liu, K Liu, X Xia, X Yang , et al.[[pdf]](https://arxiv.org/pdf/2305.17047)
 - **On the Evaluation of Neural Code Summarization** (2022), , E Shi, Y Wang, L Du, J Chen, S Han, H Zhang… , et al.[[pdf]](https://arxiv.org/pdf/2107.07112)
 
-### Spurious Correlations
+### *Spurious Correlations*
 - **Deep Learning Based Vulnerability Detection: Are We There Yet?** (2021), , S Chakraborty, R Krishna, Y Ding… , et al.[[pdf]](https://arxiv.org/pdf/2009.07235)
 - **Diet code is healthy: simplifying programs for pre-trained models of code** (2022), , Z Zhang, H Zhang, B Shen, X Gu , et al.[[pdf]](https://arxiv.org/pdf/2206.14390)
 - **Explaining mispredictions of machine learning models using rule induction** (2021), , J Cito, I Dillig, S Kim, V Murali, S Chandra , et al.[[pdf]](https://www.cs.utexas.edu/~isil/md.pdf)
@@ -149,10 +149,10 @@ the peer-review process.
 - **An empirical study of deep learning models for vulnerability detection** (2023), , B Steenhoek, MM Rahman, R Jiles… , et al.[[pdf]](https://arxiv.org/pdf/2212.08109)
 - **Towards Efficient Fine-Tuning of Pre-trained Code Models: An Experimental Study and Beyond** (2023), , E Shi, Y Wang, H Zhang, L Du, S Han, D Zhang… , et al.[[pdf]](https://arxiv.org/pdf/2304.05216)
 
-### Inappropriate Data Proprocessing
+### *Inappropriate Data Proprocessing*
 - **Deep Learning Based Vulnerability Detection: Are We There Yet?** (2021), , S Chakraborty, R Krishna, Y Ding… , et al.[[pdf]](https://arxiv.org/pdf/2009.07235)
 
-### Inappropriate Model Design
+### *Inappropriate Model Design*
 - **Deep Learning Based Vulnerability Detection: Are We There Yet?** (2021), , S Chakraborty, R Krishna, Y Ding… , et al.[[pdf]](https://arxiv.org/pdf/2009.07235)
 - **Enhancing DNN-Based Binary Code Function Search With Low-Cost Equivalence Checking** (2022), , H Wang, P Ma, Y Yuan, Z Liu, S Wang… , et al.[[pdf]]()
 - **Improving automatic source code summarization via deep reinforcement learning** (2018), , Y Wan, Z Zhao, M Yang, G Xu, H Ying, J Wu… , et al.[[pdf]](https://arxiv.org/pdf/1811.07234)
@@ -163,14 +163,14 @@ the peer-review process.
 - **Template-based Neural Program Repair** (2023), , X Meng, X Wang, H Zhang, H Sun… , et al.[[pdf]]()
 
 ## Performance Evaluation
-### Inappropriate Baseline
+### *Inappropriate Baseline*
 - **Towards More Realistic Evaluation for Neural Test Oracle Generationr** (2305), , Z Liu, K Liu, X Xia, X Yang , et al.[[pdf]](https://arxiv.org/pdf/2305.17047)
 
-### Inappropriate Test Set
+### *Inappropriate Test Set*
 - **Deep Learning Based Program Generation From Requirements Text: Are We There Yet?** (2020), , H Liu, M Shen, J Zhu, N Niu, G Li… , et al.[[pdf]](https://liuhuigmail.github.io/publishedPappers/CodeGeneration.pdf)
 - **Generating realistic vulnerabilities via neural code editing: an empirical study** (2022), , Y Nong, Y Ou, M Pradel, F Chen, H Cai , et al.[[pdf]](https://dl.acm.org/doi/pdf/10.1145/3540250.3549128)
 
-### Low Reproducibility
+### *Low Reproducibility*
 - **An extensive study on pre-trained models for program understanding and generation** (2022), , Z Zeng, H Tan, H Zhang, J Li, Y Zhang… , et al.[[pdf]](https://lingming.cs.illinois.edu/publications/issta2022.pdf)
 
 ### Inappropriate Performance Measures
@@ -189,7 +189,7 @@ the peer-review process.
 - **GitHub Copilot AI pair programmer: Asset or Liability?** (2023), , AM Dakhel, V Majdinasab, A Nikanjam… , et al.[[pdf]](https://arxiv.org/pdf/2206.15331)
 
 ## Deployment and Maintainance
-### Lab-only evaluation
+### *Lab-only evaluation*
 - **Examining Zero-Shot Vulnerability Repair with Large Language Models** (2023), , H Pearce, B Tan, B Ahmad, R Karri… , et al.[[pdf]](https://arxiv.org/pdf/2112.02125)
 - **A Performance-Sensitive Malware Detection System Using Deep Learning on Mobile Devices** (2020), , R Feng, S Chen, X Xie, G Meng… , et al.[[pdf]](https://arxiv.org/pdf/2005.04970)
 - **Diet code is healthy: simplifying programs for pre-trained models of code** (2022), , Z Zhang, H Zhang, B Shen, X Gu , et al.[[pdf]](https://arxiv.org/pdf/2206.14390)
@@ -199,7 +199,7 @@ the peer-review process.
 - **LLaMA-Reviewer: Advancing Code Review Automation with Large Language Models through Parameter-Efficient Fine-Tuning** (2308), , J Lu, L Yu, X Li, L Yang, C Zuo , et al.[[pdf]](https://arxiv.org/pdf/2308.11148)
 - **Compressing Pre-trained Models of Code into 3 MB** (2022), , J Shi, Z Yang, B Xu, HJ Kang, D Lo , et al.[[pdf]](https://dl.acm.org/doi/pdf/10.1145/3551349.3556964)
 
-### Model Attack Threats
+### *Model Attack Threats*
 - **You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion** (2021), , R Schuster, C Song, E Tromer… , et al.[[pdf]](https://www.usenix.org/system/files/sec21-schuster.pdf)
 - **Adversarial Robustness of Deep Code Comment Generation** (2022), , Y Zhou, X Zhang, J Shen, T Han, T Chen… , et al.[[pdf]](https://arxiv.org/pdf/2108.00213)
 - **An extensive study on pre-trained models for program understanding and generation** (2022), , Z Zeng, H Tan, H Zhang, J Li, Y Zhang… , et al.[[pdf]](https://lingming.cs.illinois.edu/publications/issta2022.pdf)
@@ -216,7 +216,7 @@ the peer-review process.
 - **Coprotector: Protect open-source code against unauthorized training usage with data poisoning** (2022), , Z Sun, X Du, F Song, M Ni, L Li , et al.[[pdf]](https://arxiv.org/pdf/2110.12925)
 - **On the Security Vulnerabilities of Text-to-SQL Models** (2211), , X Peng, Y Zhang, J Yang, M Stevenson , et al.[[pdf]](https://arxiv.org/pdf/2211.15363)
 
-### Security concerns in generated code
+### *Security concerns in generated code*
 - **Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions** (2022), , H Pearce, B Ahmad, B Tan… , et al.[[pdf]](https://arxiv.org/pdf/2108.09293.pdf?trk=article-ssr-frontend-pulse_x-social-details_comments-action_comment-text)
 - **Automated repair of programs from large language models** (2023), , Z Fan, X Gao, M Mirchev… , et al.[[pdf]](https://abhikrc.com/pdf/ICSE23.pdf)
 - **Cctest: Testing and repairing code completion systems** (2023), , Z Li, C Wang, Z Liu, H Wang, D Chen… , et al.[[pdf]](https://arxiv.org/pdf/2208.08289)
