@@ -119,36 +119,36 @@ the peer-review process.
 
 ## Data Collection and Labeling
 ### *Sampling Bias*
-- **Deep Learning Based Vulnerability Detection** (2021), arxiv, S Chakraborty, R Krishna, Y Ding… , et al.[[pdf]](https://arxiv.org/pdf/2009.07235)
-- **Does data sampling improve deep learning-based vulnerability detection? Yeas! and Nays!** (2023), ICSE, X Yang, S Wang, Y Li, S Wang , et al.[[pdf]](https://shaoweiwang2010.github.io/papers/ICSE_2023_Sampling_Vulnerablity.pdf)
-- **On the Value of Oversampling for Deep Learning in Software Defect Prediction** (2021), , R Yedida, T Menzies , et al.[[pdf]](https://arxiv.org/pdf/2008.03835)
-- **Robust Learning of Deep Predictive Models from Noisy and Imbalanced Software Engineering Datasets** (2022), ASE, Z Li, M Pan, Y Pei, T Zhang, L Wang, X Li.[[pdf]](https://dl.acm.org/doi/pdf/10.1145/3551349.3556941)
-- **An empirical study of deep learning models for vulnerability detection** (2023), arxiv, B Steenhoek, MM Rahman, et al.[[pdf]](https://arxiv.org/pdf/2212.08109)
+- **Deep Learning Based Vulnerability Detection** (2021), arxiv, S Chakraborty, R Krishna, Y Ding… , et al. [[pdf]](https://arxiv.org/pdf/2009.07235)
+- **Does data sampling improve deep learning-based vulnerability detection? Yeas! and Nays!** (2023), ICSE, X Yang, S Wang, Y Li, S Wang , et al. [[pdf]](https://shaoweiwang2010.github.io/papers/ICSE_2023_Sampling_Vulnerablity.pdf)
+- **On the Value of Oversampling for Deep Learning in Software Defect Prediction** (2021), , R Yedida, T Menzies , et al. [[pdf]](https://arxiv.org/pdf/2008.03835)
+- **Robust Learning of Deep Predictive Models from Noisy and Imbalanced Software Engineering Datasets** (2022), ASE, Z Li, M Pan, Y Pei, T Zhang, L Wang, X Li. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3551349.3556941)
+- **An empirical study of deep learning models for vulnerability detection** (2023), arxiv, B Steenhoek, MM Rahman, et al. [[pdf]](https://arxiv.org/pdf/2212.08109)
 
 ### *Label Inaccuracy*
-- **Robust Learning of Deep Predictive Models from Noisy and Imbalanced Software Engineering Datasets** (2022), ASE, Z Li, et al.[[pdf]](https://dl.acm.org/doi/pdf/10.1145/3551349.3556941)
-- **XCode: Towards Cross-Language Code Representation with Large-Scale Pre-Training** (2022), TOSEM, Z Lin, et al.[[pdf]](https://dl.acm.org/doi/pdf/10.1145/3506696)
-- **Understanding and Tackling Label Errors in Deep Learning-Based Vulnerability Detection (Experience Paper)** (2023), ISSTA, X Nie, et al.[[pdf]](https://dl.acm.org/doi/pdf/10.1145/3597926.3598037)
+- **Robust Learning of Deep Predictive Models from Noisy and Imbalanced Software Engineering Datasets** (2022), ASE, Z Li, et al. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3551349.3556941)
+- **XCode: Towards Cross-Language Code Representation with Large-Scale Pre-Training** (2022), TOSEM, Z Lin, et al. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3506696)
+- **Understanding and Tackling Label Errors in Deep Learning-Based Vulnerability Detection (Experience Paper)** (2023), ISSTA, X Nie, et al. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3597926.3598037)
 
 ### *Data Noise*
-- **Slice-Based Code Change Representation Learning** (2023), SANER, F Zhang, et al.[[pdf]](https://chenbihuan.github.io/paper/saner23-zhang-ccs2vec.pdf)
-- **Are we building on the rock? on the importance of data preprocessing for code summarization** (2022), FSE, L Shi, et al.[[pdf]](https://dl.acm.org/doi/pdf/10.1145/3540250.3549145)
-- **Neural-Machine-Translation-Based Commit Message Generation: How Far Are We?** (2018), ASE, Z Liu, et al.[[pdf]](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5299&context=sis_research)
+- **Slice-Based Code Change Representation Learning** (2023), SANER, F Zhang, et al. [[pdf]](https://chenbihuan.github.io/paper/saner23-zhang-ccs2vec.pdf)
+- **Are we building on the rock? on the importance of data preprocessing for code summarization** (2022), FSE, L Shi, et al. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3540250.3549145)
+- **Neural-Machine-Translation-Based Commit Message Generation: How Far Are We?** (2018), ASE, Z Liu, et al. [[pdf]](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5299&context=sis_research)
 
 ## System Design and Learning
 ### *Data Snooping*
-- **AutoTransform: automated code transformation to support modern code review process** (2022), ICSE, Thongtanunam, Patanamon, Chanathip Pornprasit, and Chakkrit Tantithamthavorn.[[pdf]](https://www.researchgate.net/profile/Patanamon-Thongtanunam-2/publication/358486098_AutoTransform_Automated_Code_Transformation_to_Support_Modern_Code_Review_Process/links/6204767d075f695e892eb1f4/AutoTransform-Automated-Code-Transformation-to-Support-Modern-Code-Review-Process.pdf)
-- **Can Neural Clone Detection Generalize to Unseen Functionalitiesƒ** (2021), ASE, C Liu, et al.[[pdf]](https://www.microsoft.com/en-us/research/uploads/prod/2022/01/Can-Neural-Clone-Detection-Generalize-to-UnseenFunctionalities.pdf)
-- **CD-VulD: Cross-Domain Vulnerability Discovery Based on Deep Domain Adaptation** (2020), TDSC, S Liu, et al.[[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9054952)
-- **Deep just-in-time defect prediction: how far are we?** (2021), , Z Zeng, Y Zhang, H Zhang, L Zhang , et al.[[pdf]](https://par.nsf.gov/servlets/purl/10273272)
-- **Patching as translation: the data and the metaphor** (2020), , Y Ding, B Ray, P Devanbu… , et al.[[pdf]](https://dl.acm.org/doi/pdf/10.1145/3324884.3416587)
-- **An empirical study of deep learning models for vulnerability detection** (2023), , B Steenhoek, MM Rahman, R Jiles… , et al.[[pdf]](https://arxiv.org/pdf/2212.08109)
-- **Keeping Pace with Ever-Increasing Data: Towards Continual Learning of Code Intelligence Models** (2302), , S Gao, H Zhang, C Gao, C Wang , et al.[[pdf]](https://arxiv.org/pdf/2302.03482)
-- **Revisiting Learning-based Commit Message Generation** (2023), , J Dong, Y Lou, D Hao, L Tan , et al.[[pdf]](https://www.cs.purdue.edu/homes/lintan/publications/commit-icse23.pdf)
-- **Syntax and Domain Aware Model for Unsupervised Program Translation** (2302), , F Liu, J Li, L Zhang , et al.[[pdf]](https://arxiv.org/pdf/2302.03908)
-- **How Effective Are Neural Networks for Fixing Security Vulnerabilities** (2023), , Y Wu, N Jiang, HV Pham, T Lutellier, J Davis… , et al.[[pdf]](https://arxiv.org/pdf/2305.18607)
-- **Towards More Realistic Evaluation for Neural Test Oracle Generation** (2305), , Z Liu, K Liu, X Xia, X Yang , et al.[[pdf]](https://arxiv.org/pdf/2305.17047)
-- **On the Evaluation of Neural Code Summarization** (2022), , E Shi, Y Wang, L Du, J Chen, S Han, H Zhang… , et al.[[pdf]](https://arxiv.org/pdf/2107.07112)
+- **AutoTransform: automated code transformation to support modern code review process** (2022), ICSE, Thongtanunam, Patanamon, Chanathip Pornprasit, and Chakkrit Tantithamthavorn. [[pdf]](https://www.researchgate.net/profile/Patanamon-Thongtanunam-2/publication/358486098_AutoTransform_Automated_Code_Transformation_to_Support_Modern_Code_Review_Process/links/6204767d075f695e892eb1f4/AutoTransform-Automated-Code-Transformation-to-Support-Modern-Code-Review-Process.pdf)
+- **Can Neural Clone Detection Generalize to Unseen Functionalitiesƒ** (2021), ASE, C Liu, et al. [[pdf]](https://www.microsoft.com/en-us/research/uploads/prod/2022/01/Can-Neural-Clone-Detection-Generalize-to-UnseenFunctionalities.pdf)
+- **CD-VulD: Cross-Domain Vulnerability Discovery Based on Deep Domain Adaptation** (2020), TDSC, S Liu, et al. [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9054952)
+- **Deep just-in-time defect prediction: how far are we?** (2021), , Z Zeng, Y Zhang, H Zhang, L Zhang , et al. [[pdf]](https://par.nsf.gov/servlets/purl/10273272)
+- **Patching as translation: the data and the metaphor** (2020), , Y Ding, B Ray, P Devanbu… , et al. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3324884.3416587)
+- **An empirical study of deep learning models for vulnerability detection** (2023), , B Steenhoek, MM Rahman, R Jiles… , et al. [[pdf]](https://arxiv.org/pdf/2212.08109)
+- **Keeping Pace with Ever-Increasing Data: Towards Continual Learning of Code Intelligence Models** (2302), , S Gao, H Zhang, C Gao, C Wang , et al. [[pdf]](https://arxiv.org/pdf/2302.03482)
+- **Revisiting Learning-based Commit Message Generation** (2023), , J Dong, Y Lou, D Hao, L Tan , et al. [[pdf]](https://www.cs.purdue.edu/homes/lintan/publications/commit-icse23.pdf)
+- **Syntax and Domain Aware Model for Unsupervised Program Translation** (2302), , F Liu, J Li, L Zhang , et al. [[pdf]](https://arxiv.org/pdf/2302.03908)
+- **How Effective Are Neural Networks for Fixing Security Vulnerabilities** (2023), , Y Wu, N Jiang, HV Pham, T Lutellier, J Davis… , et al. [[pdf]](https://arxiv.org/pdf/2305.18607)
+- **Towards More Realistic Evaluation for Neural Test Oracle Generation** (2305), , Z Liu, K Liu, X Xia, X Yang , et al. [[pdf]](https://arxiv.org/pdf/2305.17047)
+- **On the Evaluation of Neural Code Summarization** (2022), , E Shi, Y Wang, L Du, J Chen, S Han, H Zhang… , et al. [[pdf]](https://arxiv.org/pdf/2107.07112)
 
 ### *Spurious Correlations*
 - **Deep Learning Based Vulnerability Detection: Are We There Yet?** (2021), , S Chakraborty, R Krishna, Y Ding… , et al.[[pdf]](https://arxiv.org/pdf/2009.07235)
