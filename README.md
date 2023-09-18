@@ -55,6 +55,9 @@ To conduct a systematic review, we need to follow complete steps to collect, ana
 - Write the Report
 ## Methodology
 ***Search String:***
+<details>
+<summary>Click to expand</summary>
+
 - ***Keywords related to LMs:*** "LLM" OR "Large Language Model*" OR "Language Model*" OR
 "LM" OR "PLM" OR "Pre-trained" OR "Pre-training" OR "Natural Language Processing"
 OR "NLP" OR "Machine Learning" OR "ML" OR "Deep Learning" OR "DL" OR "Artificial
@@ -62,8 +65,12 @@ Intelligence" OR "AI" OR "Transformer" OR "BERT" OR "CODEX" OR "GPT" OR "T5" OR
 "Sequence Model*" OR "Attention Model*" OR "Transfer Learning" OR "Neural Network*"
 OR "ChatGPT" OR "GPT-*" OR "Deep neural network*" OR "DNN*"
 - ***Keywords  related to SE tasks:*** "Software Engineering" OR "Software Development" OR "Program*" OR "Software Testing" OR "Software Mainten*" OR "SE" OR "Software Lifecycle" OR "Software Design*" OR "Code representation" OR "Code generation" OR "Code comment generation" OR "Code search" OR "Code localization" OR "Code completion" OR "Code summarization" OR "Method name generation" OR "Bug detection" OR "Bug localization" OR "Vulnerability detection" OR "Testing techniques" OR "Test case generation" OR "Program analysis" OR "Bug classification" OR "Defect prediction" OR "Program repair" OR "Code clone detection" OR "Bug report" OR "Software quality evaluation" OR "SATD detection" OR "Code smell detection" OR "Compiled-related" OR "Code review" OR "Software classification" OR "Code classification" OR "Code change" OR "Incident detection" OR "Requirement extraction" OR "Requirement traceability" OR "Requirement validation" OR "Effort cost prediction" OR "Mining GitHub/Github mining" OR "Mining SO (StackOverflow)/SO mining" OR "Mining app/App mining" OR "Mining tag/Tag mining" OR "Developer-based mining"
+ </details>
  
 ***Exclude criteria:***
+<details>
+<summary>Click to expand</summary>
+    
 - The paper whose number of pages is less than 8.
 -  Studies of which their full texts are inaccessible.
 -  Duplicate papers or similar studies with different versions from the same authors.
@@ -75,6 +82,7 @@ the peer-review process.
 - Non-English written literature.
 - Literature not using language models.
 - Papers presenting analyses of cyber attacks or Operating Systems
+</details>
 
 ***Manual Search Venues:***
 <details>
