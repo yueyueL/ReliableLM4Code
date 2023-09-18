@@ -136,39 +136,38 @@ Please feel free to send a pull request to add papers and relevant content that 
 
 ## Deployment and Maintainance
 ### Lab-only evaluation
-- **Examining Zero-Shot Vulnerability Repair with Large Language Models**
-- **A Performance-Sensitive Malware Detection System Using Deep Learning on Mobile Devices**
-- **Diet code is healthy: simplifying programs for pre-trained models of code**
-- **When Code Completion Fails: A Case Study on Real-World Completions**
-- **Lost at C: A User Study on the Security Implications of Large Language Model Code Assistants**
-- **Grounded Copilot: How Programmers Interact with Code-Generating Models**
-- **LLaMA-Reviewer: Advancing Code Review Automation with Large Language Models through Parameter-Efficient Fine-Tuning**
-- **Compressing Pre-trained Models of Code into 3 MB**
+- **Examining Zero-Shot Vulnerability Repair with Large Language Models** (2023), , H Pearce, B Tan, B Ahmad, R Karri… , et al.[[pdf]](https://arxiv.org/pdf/2112.02125)
+- **A Performance-Sensitive Malware Detection System Using Deep Learning on Mobile Devices** (2020), , R Feng, S Chen, X Xie, G Meng… , et al.[[pdf]](https://arxiv.org/pdf/2005.04970)
+- **Diet code is healthy: simplifying programs for pre-trained models of code** (2022), , Z Zhang, H Zhang, B Shen, X Gu , et al.[[pdf]](https://arxiv.org/pdf/2206.14390)
+- **When Code Completion Fails: A Case Study on Real-World Completions** (2019), , VJ Hellendoorn, S Proksch, HC Gall… , et al.[[pdf]](http://www.sback.it/publications/icse2019b.pdf)
+- **Lost at C: A User Study on the Security Implications of Large Language Model Code Assistants** (2023), , G Sandoval, H Pearce, T Nys, R Karri, S Garg… , et al.[[pdf]](https://www.usenix.org/system/files/sec23fall-prepub-353-sandoval.pdf)
+- **Grounded Copilot: How Programmers Interact with Code-Generating Models** (2023), , S Barke, MB James, N Polikarpova , et al.[[pdf]](https://dl.acm.org/doi/pdf/10.1145/3586030)
+- **LLaMA-Reviewer: Advancing Code Review Automation with Large Language Models through Parameter-Efficient Fine-Tuning** (2308), , J Lu, L Yu, X Li, L Yang, C Zuo , et al.[[pdf]](https://arxiv.org/pdf/2308.11148)
+- **Compressing Pre-trained Models of Code into 3 MB** (2022), , J Shi, Z Yang, B Xu, HJ Kang, D Lo , et al.[[pdf]](https://dl.acm.org/doi/pdf/10.1145/3551349.3556964)
 
 ### Model Attack Threats
-- **You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion**
-- **Adversarial Robustness of Deep Code Comment Generation**
-- **An extensive study on pre-trained models for program understanding and generation**
-- **Generating Adversarial Examples for Holding Robustness of Source Code Processing Models**
-- **Semantic Robustness of Models of Source Code**
-- **You see what I want you to see: poisoning vulnerabilities in neural code search**
-- **Contrabert: Enhancing code pre-trained models via contrastive learning**
-- **On the robustness of code generation techniques: An empirical study on github copilot**
-- **Two sides of the same coin: Exploiting the impact of identifiers in neural code comprehension**
-- **Multi-target Backdoor Attacks for Code Pre-trained Models**
-- **Backdooring Neural Code Search**
-- **ReCode: Robustness Evaluation of Code Generation Models**
-- **Natural Attack for Pre-trained Models of Code**
-- **Coprotector: Protect open-source code against unauthorized training usage with data poisoning**
-- **On the Security Vulnerabilities of Text-to-SQL Models**
+- **You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion** (2021), , R Schuster, C Song, E Tromer… , et al.[[pdf]](https://www.usenix.org/system/files/sec21-schuster.pdf)
+- **Adversarial Robustness of Deep Code Comment Generation** (2022), , Y Zhou, X Zhang, J Shen, T Han, T Chen… , et al.[[pdf]](https://arxiv.org/pdf/2108.00213)
+- **An extensive study on pre-trained models for program understanding and generation** (2022), , Z Zeng, H Tan, H Zhang, J Li, Y Zhang… , et al.[[pdf]](https://lingming.cs.illinois.edu/publications/issta2022.pdf)
+- **Generating Adversarial Examples for Holding Robustness of Source Code Processing Models** (2020), , H Zhang, Z Li, G Li, L Ma, Y Liu, Z Jin , et al.[[pdf]](https://ojs.aaai.org/index.php/AAAI/article/view/5469/5325)
+- **Semantic Robustness of Models of Source Code** (2020), , G Ramakrishnan, J Henkel, Z Wang… , et al.[[pdf]](https://arxiv.org/pdf/2002.03043)
+- **You see what I want you to see: poisoning vulnerabilities in neural code search** (2022), , Y Wan, S Zhang, H Zhang, Y Sui, G Xu, D Yao… , et al.[[pdf]](https://opus.lib.uts.edu.au/bitstream/10453/164890/2/fse22_code_attack_camera%20%281%29.pdf)
+- **Contrabert: Enhancing code pre-trained models via contrastive learning** (2301), , S Liu, B Wu, X Xie, G Meng, Y Liu , et al.[[pdf]](https://arxiv.org/pdf/2301.09072)
+- **On the robustness of code generation techniques: An empirical study on github copilot** (2023), , A Mastropaolo, L Pascarella, E Guglielmi… , et al.[[pdf]](https://arxiv.org/pdf/2302.00438)
+- **Two sides of the same coin: Exploiting the impact of identifiers in neural code comprehension** (2023), , S Gao, C Gao, C Wang, J Sun, D Lo… , et al.[[pdf]](https://yuyue.github.io/res/paper/NeuralCode-ICSE2023.pdf)
+- **Multi-target Backdoor Attacks for Code Pre-trained Models** (2023), , Y Li, S Liu, K Chen, X Xie, T Zhang, Y Liu , et al.[[pdf]](https://arxiv.org/pdf/2306.08350)
+- **Backdooring Neural Code Search** (2023), , W Sun, Y Chen, G Tao, C Fang, X Zhang… , et al.[[pdf]](https://arxiv.org/pdf/2305.17506)
+- **ReCode: Robustness Evaluation of Code Generation Models** (2022), , S Wang, Z Li, H Qian, C Yang, Z Wang… , et al.[[pdf]](https://arxiv.org/pdf/2212.10264)
+- **Natural Attack for Pre-trained Models of Code** (2022), , Z Yang, J Shi, J He, D Lo , et al.[[pdf]](https://arxiv.org/pdf/2201.08698)
+- **Coprotector: Protect open-source code against unauthorized training usage with data poisoning** (2022), , Z Sun, X Du, F Song, M Ni, L Li , et al.[[pdf]](https://arxiv.org/pdf/2110.12925)
+- **On the Security Vulnerabilities of Text-to-SQL Models** (2211), , X Peng, Y Zhang, J Yang, M Stevenson , et al.[[pdf]](https://arxiv.org/pdf/2211.15363)
 
 ### Security concerns in generated code
-- **Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions**
-- **Automated repair of programs from large language models**
-- **Cctest: Testing and repairing code completion systems**
-- **Analyzing Leakage of Personally Identifiable Information in Language Models**
-- **CodexLeaks: Privacy Leaks from Code Generation Language Models in GitHub Copilot**
-
+- **Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions** (2022), , H Pearce, B Ahmad, B Tan… , et al.[[pdf]](https://arxiv.org/pdf/2108.09293.pdf?trk=article-ssr-frontend-pulse_x-social-details_comments-action_comment-text)
+- **Automated repair of programs from large language models** (2023), , Z Fan, X Gao, M Mirchev… , et al.[[pdf]](https://abhikrc.com/pdf/ICSE23.pdf)
+- **Cctest: Testing and repairing code completion systems** (2023), , Z Li, C Wang, Z Liu, H Wang, D Chen… , et al.[[pdf]](https://arxiv.org/pdf/2208.08289)
+- **Analyzing Leakage of Personally Identifiable Information in Language Models** (2023), , N Lukas, A Salem, R Sim, S Tople, L Wutschitz… , et al.[[pdf]](https://arxiv.org/pdf/2302.00539)
+- **CodexLeaks: Privacy Leaks from Code Generation Language Models in GitHub Copilot** (2023), , L Niu, S Mirza, Z Maradni, C Pöpper , et al.[[pdf]](https://www.usenix.org/system/files/usenixsecurity23-niu.pdf)
 # Research Groups
 
 
