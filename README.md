@@ -41,7 +41,8 @@ Please feel free to send a pull request to add papers and relevant content that 
 
 To conduct a systematic review, we need to follow complete steps to collect, analyze and review the relevant literature works.
 
-![SLR_Process]("D:\Work_Station\Github\ReliableLM4Code\picture\Study_identification_and_selection_process.png)
+![Study_identification_and_selection_process](https://github.com/yueyueL/ReliableLM4Code/assets/60457190/e1b73870-a7da-489b-bf6c-d0577375f252)
+
 
 **Steps:**
 - Define the Review Questions
