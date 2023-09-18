@@ -118,6 +118,7 @@ the peer-review process.
 - **Trustworthy AI: From principles to practices** (2023), arxiv, BO Li, et al. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3555803)
 
 ## Data Collection and Labeling
+
 <details>
 <summary>Click to expand</summary>
 
