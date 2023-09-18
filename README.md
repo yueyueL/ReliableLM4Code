@@ -118,6 +118,9 @@ the peer-review process.
 - **Trustworthy AI: From principles to practices** (2023), arxiv, BO Li, et al. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3555803)
 
 ## Data Collection and Labeling
+<details>
+<summary>Click to expand</summary>
+
 ### *Sampling Bias*
 - **Deep Learning Based Vulnerability Detection** (2021), arxiv, S Chakraborty, R Krishna, Y Ding, et al. [[pdf]](https://arxiv.org/pdf/2009.07235)
 - **Does data sampling improve deep learning-based vulnerability detection? Yeas! and Nays!** (2023), ICSE, X Yang, et al. [[pdf]](https://shaoweiwang2010.github.io/papers/ICSE_2023_Sampling_Vulnerablity.pdf)
@@ -134,6 +137,7 @@ the peer-review process.
 - **Slice-Based Code Change Representation Learning** (2023), SANER, F Zhang, et al. [[pdf]](https://chenbihuan.github.io/paper/saner23-zhang-ccs2vec.pdf)
 - **Are we building on the rock? on the importance of data preprocessing for code summarization** (2022), FSE, L Shi, et al. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3540250.3549145)
 - **Neural-Machine-Translation-Based Commit Message Generation: How Far Are We?** (2018), ASE, Z Liu, et al. [[pdf]](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5299&context=sis_research)
+</details>
 
 ## System Design and Learning
 ### *Data Snooping*
