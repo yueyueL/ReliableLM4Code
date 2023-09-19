@@ -244,26 +244,99 @@ the peer-review process.
 
 # Public Tools
 -  **ACCENT** (Adversarial Code Comment gENeraTor)
-    -  masked training, an identifier substitution approach to craft adversarial code snippets, which are syntactically correct and semantically close to the original code snippet, but may mislead the DNNs to produce completely irrelevant code comments.
+    - masked training
+    - an identifier substitution approach to craft adversarial code snippets, which are syntactically correct and semantically close to the original code snippet, but may mislead the DNNs to produce completely irrelevant code comments.
     - [[pdf]](), [[code]](https://github.com/zhangxq-1/ACCENT-repository)
 - **AutoTransform**
-    - through addressing the out-off vocabulary, BPE(Byte-Pair Encoding), a Transformer-based NMT architecture to handle long sequences
+    - a Transformer-based NMT architecture to handle long sequences
+    - through addressing the out-off vocabulary, BPE(Byte-Pair Encoding)
     - [[pdf]](), [[code]]()
 - **An evaluation methodology that can systematically measure the crossfunctionality generalizability of neural clone detection**
     - training set with diverse functionalities，out-of-vocabulary problem， incorporating locality into model architecture
     - [[pdf]](https://ieeexplore.ieee.org/document/9678907), [[code]](https://github.com/thousfeet/Functionality-generalization)
 - **CD-VulD**
-    - learn cross-domain representations, a new system for Cross Domain Software Vulnerability Discovery using deep learning (DL) and domain adaptation (DA).
+    - a new system for Cross Domain Software Vulnerability Discovery using deep learning (DL) and domain adaptation (DA).
+    - learn cross-domain representations
     - [[pdf]](), [[code]]()
+- **DietCode**
+    - explain to decrease the tokens
+    - aims at lightweight leverage of large pre-trained models for source code
+    - [[pdf]](), [[code]]()
+- **USE** (under-constrained symbolic execution)
+    - a variant of symbolic execution, improves scalability by initiating symbolic execution directly from function entry points and relaxing constraints on function parameters
+    - [[pdf]](), [[code]]()
+- **A technique that aims to facilitate the debugging process of trained statistical models**
+    - model-agnostic explaination
+    - The output of the technique can be useful for understanding limitations of the training data or the model itself
+    - [[pdf]](), [[code]]()
+- **Metropolis-Hastings Modifier (MHM)**
+    - Adversarial Training
+    - generates adversarial examples for DL models specialized for source code processing
+    - [[pdf]](), [[code]]()
+- **A data cleaning framework**
+    - Data clean
+    - [[pdf]](), [[code]]()
+- **Oversampling**
+    - non-DL technique, (artificially generating members of a minority class prior to running a learner) dramatically improves deep learning
+    - TSE 2021
+    - [[pdf]](), [[code]]()
+- **A new code summarization approach using hierarchical attention network**
+    - multiple structural code features (including control flow graph and AST) to reflect the code hierarchy, a two-layer attention network (a token layer and a statement layer)
+    - TSE 2022
+    - [[pdf]](), [[code]]()
+- **RobustTrainer**
+    - learning deep predictive models on raw training datasets where the mislabelled samples and the imbalanced classes coexist.
+    - ASE 2022
+    - [[pdf]](), [[code]]()
+ - **SYNSHINE**
+    - input with compiler errors, large neural model leveraging unsupervised pre-training, multi-label classification
+    - TSE 2023
+    - [[pdf]](), [[code]]()
+
+- **CARROTA**
+    - adversarial training and detection, an optimization-based attack technique
+    - TOSEM 2022
+    - [[pdf]](), [[code]]()
+   
+# New model
+- **Actor-critic network**
+    - an abstract syntax tree structure as well as sequential content of code snippets into a deep reinforcement learning framework
+    - ASE 2018
+    - [[pdf]](), [[code]]()
+      
+- **CugLM**
+    - a multi-task learning based pre-trained language model for code understanding and code generation with a Transformer-based neural architecture
+    - ASE 2021
+    - [[pdf]](), [[code]]()
+  
+# XAI
+- **Interpreting Deep Learning-based Vulnerability Detector Predictions Based on Heuristic Searching**
+    - a framework for interpreting predictions of deep learning-based vulnerability detectors
+    - The framework is centered at identifying a small number of tokens that make important contributions to a particular prediction, the novelty of the framework can be characterized as follows: (1) it does not assume the detector’s local decision boundary is linear; (2) it does not assume the features are independent of each other but instead braces the association between features when searching for important features; (3) it searches important features by perturbing examples, while considering feature combinations rather than individual features.
+    - TOSEM 2021
+    - [[pdf]]()
+
+- **Thinking Like a Developer? Comparing the Attention of Humans with Neural Models of Code**
+    - a methodology for recording human attention
+    - ASE 2021
+    - [[pdf]](), [[code]](https://github.com/MattePalte/thinking-like-a-developer)
 
 # New benchmark
 - **Deep Learning Based Program Generation From Requirements Text: Are We There Yet?**
-    - ReCa, a large scale dataset that is composed of longer requirements as well as validated implementations
-    - [[pdf]](), [[ReCa]](https://github.com/ds4an/CoDas4CG)
+    - [[ReCa]](https://github.com/ds4an/CoDas4CG), a large scale dataset that is composed of longer requirements as well as validated implementations
+    - TSE 2022
+    - [[pdf]]()
 - **Deep Learning Based Vulnerability Detection: Are We There Yet?**
-    - curated a real-world dataset from developer/user reported vulnerabilities of Chromium and Debian projects
-    - [[pdf]](),[[Chromium_And_Debian_Vulnerability_Data]](https://bit.ly/3bX30ai)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  12
+    - [[Chromium_And_Debian_Vulnerability_Data]](https://bit.ly/3bX30ai), curated a real-world dataset from developer/user reported vulnerabilities of Chromium and Debian projects
+    - TSE 2021
+    - [[pdf]]()
+- **Generating realistic vulnerabilities via neural code editing: an empirical study**
+    - [[SARD]](https: //samate.nist.gov/SARD/), Synthetic dataset
+    - [[Real-world dataset]](https://zenodo.org/record/6897604), a real-world dataset based on BigVul and PatchDB
+    - FSE 2022
+    - [[pdf]]()
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 31
 
 # Research Groups
 
