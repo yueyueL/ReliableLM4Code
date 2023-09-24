@@ -331,7 +331,7 @@ the peer-review process.
     - TSE 2021
     - [[pdf]]()
 - **Generating realistic vulnerabilities via neural code editing: an empirical study**
-    - [[SARD]](https://samate.nist.gov/SARD/), Synthetic dataset
+    - [[SARD]](https://samate.nist.gov/SARD), Synthetic dataset
     - [[Real-world dataset]](https://zenodo.org/record/6897604), a real-world dataset based on BigVul and PatchDB
     - FSE 2022
     - [[pdf]]()
