@@ -246,97 +246,236 @@ the peer-review process.
 -  **ACCENT** (Adversarial Code Comment gENeraTor)
     - masked training
     - an identifier substitution approach to craft adversarial code snippets, which are syntactically correct and semantically close to the original code snippet, but may mislead the DNNs to produce completely irrelevant code comments.
-    - [[pdf]](), [[code]](https://github.com/zhangxq-1/ACCENT-repository)
+    - TOSEM 2022
+    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3501256), [[code]](https://github.com/zhangxq-1/ACCENT-repository)
+
 - **AutoTransform**
     - a Transformer-based NMT architecture to handle long sequences
     - through addressing the out-off vocabulary, BPE(Byte-Pair Encoding)
-    - [[pdf]](), [[code]]()
-- **An evaluation methodology that can systematically measure the crossfunctionality generalizability of neural clone detection**
+    - ICSE 2022
+    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3510003.3510067), [[code]](https://github.com/awsm-research/AutoTransform-Replication)
+
+- **Functionality-generalization**
     - training set with diverse functionalities，out-of-vocabulary problem， incorporating locality into model architecture
+    - ASE 2021
     - [[pdf]](https://ieeexplore.ieee.org/document/9678907), [[code]](https://github.com/thousfeet/Functionality-generalization)
+
 - **CD-VulD**
     - a new system for Cross Domain Software Vulnerability Discovery using deep learning (DL) and domain adaptation (DA).
     - learn cross-domain representations
-    - [[pdf]](), [[code]]()
+    - TDSC 2022
+    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9054952)
+
 - **DietCode**
     - explain to decrease the tokens
     - aims at lightweight leverage of large pre-trained models for source code
-    - [[pdf]](), [[code]]()
-- **USE** (under-constrained symbolic execution)
-    - a variant of symbolic execution, improves scalability by initiating symbolic execution directly from function entry points and relaxing constraints on function parameters
-    - [[pdf]](), [[code]]()
-- **A technique that aims to facilitate the debugging process of trained statistical models**
+    - FSE 2022
+    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3540250.3549094), [[code]](https://github.com/zhangzwwww/DietCode)
+
+- **BinUSE**
+    - a practical and efficient equivalence check, using under-constrained symbolic execution (USE)
+    - TSE 2023
+    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9707874)
+
+- **mmd**
     - model-agnostic explaination
     - The output of the technique can be useful for understanding limitations of the training data or the model itself
-    - [[pdf]](), [[code]]()
+    - FSE 2021
+    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3468264.3468614), [[code]](https://github.com/facebookresearch/mmd)
+
 - **Metropolis-Hastings Modifier (MHM)**
     - Adversarial Training
     - generates adversarial examples for DL models specialized for source code processing
-    - [[pdf]](), [[code]]()
-- **A data cleaning framework**
+    - AAAI 2020
+    - [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/view/5469), [[code]](https://github.com/Metropolis-Hastings-Modifier/MHM)
+
+- **ReVeal**
     - Data clean
-    - [[pdf]](), [[code]]()
-- **Oversampling**
+    - TSE 2021
+    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9448435), [[code]](https://github.com/VulDetProject/ReVeal)
+
+- **ghost-dl**
+    - a oversampling method
     - non-DL technique, (artificially generating members of a minority class prior to running a learner) dramatically improves deep learning
     - TSE 2021
-    - [[pdf]](), [[code]]()
-- **A new code summarization approach using hierarchical attention network**
+    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9429914), [[code]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9429914)
+
+- **HAN**
+    - Hierarchical Attention Network
     - multiple structural code features (including control flow graph and AST) to reflect the code hierarchy, a two-layer attention network (a token layer and a statement layer)
     - TSE 2022
-    - [[pdf]](), [[code]]()
+    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9031440)
+
 - **RobustTrainer**
     - learning deep predictive models on raw training datasets where the mislabelled samples and the imbalanced classes coexist.
     - ASE 2022
-    - [[pdf]](), [[code]]()
+    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3551349.3556941), [[code]](https://github.com/RobustTrainer/RobustTrainers)
+
  - **SYNSHINE**
     - input with compiler errors, large neural model leveraging unsupervised pre-training, multi-label classification
     - TSE 2023
-    - [[pdf]](), [[code]]()
+    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9913705), [[code]](https://zenodo.org/record/7789329)
 
 - **CARROTA**
     - adversarial training and detection, an optimization-based attack technique
     - TOSEM 2022
-    - [[pdf]](), [[code]]()
-   
+    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3511887), [[code]](https://github.com/SEKE-Adversary/CARROT)
+
+- **CAT**
+    - automated code-comment cleaning tool
+    - FSE 2022
+    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3540250.3549145), [[code]](https://github.com/BuiltOntheRock/FSE22_BuiltOntheRock), [[pyton]](https://pypi.org/project/FSE22-CAT/0.0.1)
+
+- **apr4codex**
+    - APR / prompts for repair, APR techniques fix the incorrect solutions produced by language models in LeetCode contests.
+    - ICSE 2023
+    - [[pdf]](https://arxiv.org/pdf/2205.10583.pdf), [[code]](https://github.com/zhiyufan/apr4codex)
+
+- **CCTEST**
+    - test and repair code completion systems in black-box setting
+    - ICSE 2023
+    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10172845), [[HomePage]](https://sites.google.com/view/cctest-info/main-page)
+
+- **ContraBERT**
+    - an approach aims to improve the robustness of pre-trained models via contrastive learning, Contrastive Learning
+    - ICSE 2023
+    - [[pdf]](https://arxiv.org/pdf/2301.09072.pdf), [[HomePage]](https://sites.google.com/view/contrabert)
+
+- **REPEAT**
+    - a novel method for continual learning of code intelligence models
+    - ICSE 2023
+    - [[pdf]](https://arxiv.org/abs/2302.03482.pdf), [[code]](https://github.com/ReliableCoding/REPEAT)
+
+- **RepresentThemAll**
+    - a pre-trained approach that can learn the universal representation of bug reports and handle multiple downstream tasks
+    - ICSE 2023
+    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10172597), [[code]](https://github.com/ICSE-2023/RepresentThemALL)
+
+- **TENURE** 
+    - Template-based Neural Program Repair, which simultaneously absorbs the advantages of template- based and NMT-based APR methods
+    - ICSE 2023
+    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10172686), [[code]](https://github.com/mxx1219/TENURE)
+
+- **CREAM**
+    - A counterfactual reasoning-based framework, multi-task learning and counterfactual inference
+    - ICSE 2023
+    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10172869), [[code]](https://github.com/ReliableCoding/CREAM)
+    
+- **Telly**
+    - four probing tasks related to lexical, syntactic, semantic, and structural code properties
+    - Telly-𝐾 (efficiently fine-tunes pre-trained code models via selective layer freezing)
+    - ISSTA 2023
+    - [[pdf]](https://arxiv.org/pdf/2304.05216.pdf), [[code]](https://github.com/DeepSoftwareAnalytics/Telly)
+
+- **TEval+**
+    - a more realistic evaluation method TEval+ for NTOG and summarize seven rules of thumb to boost NTOG approaches into their practical usage
+    - ISSTA 2023
+    - [[pdf]](https://arxiv.org/pdf/2305.17047.pdf), [[code]](https://github.com/microsoft/toga)
+
+- **analysing_pii_leakage**
+    -  rigorous game-based definitions for three types of PII leakage via black-box extraction, inference, and reconstruction attacks with only API access to an LM
+    - S&P 2023
+    - [[pdf]](https://arxiv.org/pdf/2302.00539.pdf), [[code]](https://github.com/microsoft/analysing_pii_leakage)
+
+- **CodexLeaks**
+    - a semi-automated filtering method using a blind membership inference attack
+    - USENIX Security 2023
+    - [[pdf]](https://www.usenix.org/system/files/usenixsecurity23-niu.pdf), [[code]](https://github.com/niuliang42/CodexLeaks)
+
+- **CoProtector**
+    - Utilizing data poisoning techniques to arm source code repositories for defending against such exploits
+    - WWW 2022
+    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3485447.3512225), [[code]](https://github.com/v587su/CoProtector)
+
+- **LLaMA-Reviewer**
+    - an innovative framework that leverages the capabilities of LLaMA, a popular LLM, in the realm of code review
+    - ISSRE 2023
+    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3485447.3512225), [[code]](https://doi.org/10.5281/zenodo.7991113)
+
+- **Compressor**
+    - a novel approach that can compress the pre-trained models of code into extremely small models with negligible performance sacrifice
+    - ASE 2022
+    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3551349.3556964), [[code]](https://github.com/soarsmu/Compressor)
+
+- **NNGen**
+    - a simpler and faster approach to generate concise commit messages using the nearest neighbor algorithm
+    - ASE 2018
+    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3238147.3238190), [[code]](https://goo.gl/63B976)
+
 # New model
 - **Actor-critic network**
     - an abstract syntax tree structure as well as sequential content of code snippets into a deep reinforcement learning framework
     - ASE 2018
-    - [[pdf]](), [[code]]()
+    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3238147.3238206)
       
 - **CugLM**
     - a multi-task learning based pre-trained language model for code understanding and code generation with a Transformer-based neural architecture
     - ASE 2021
-    - [[pdf]](), [[code]]()
+    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3324884.3416591)
+
+-  **SDA-Trans**
+    -  adversarial training, unsupervised training
+    - a syntax and domain-aware model for program translation, which leverages the syntax structure and domain knowledge to enhance the cross-lingual transfer ability
+    - ICSE 2023
+    - [[pdf]](https://arxiv.org/pdf/2302.03908.pdf)
+
+- **Tare**
+    -  a type-aware model for neural program repair to learn the typing rules
+    - ICSE 2023
+    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10172781), [[code]](https://zenodo.org/record/7029405)
+
+- 
   
 # XAI
 - **Interpreting Deep Learning-based Vulnerability Detector Predictions Based on Heuristic Searching**
     - a framework for interpreting predictions of deep learning-based vulnerability detectors
     - The framework is centered at identifying a small number of tokens that make important contributions to a particular prediction, the novelty of the framework can be characterized as follows: (1) it does not assume the detector’s local decision boundary is linear; (2) it does not assume the features are independent of each other but instead braces the association between features when searching for important features; (3) it searches important features by perturbing examples, while considering feature combinations rather than individual features.
     - TOSEM 2021
-    - [[pdf]]()
+    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3429444)
 
 - **Thinking Like a Developer? Comparing the Attention of Humans with Neural Models of Code**
-    - a methodology for recording human attention
+    - A methodology for recording human attention
     - ASE 2021
-    - [[pdf]](), [[code]](https://github.com/MattePalte/thinking-like-a-developer)
+    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9678712), [[code]](https://github.com/MattePalte/thinking-like-a-developer)
+
+-  **Vulnerability detection with fine-grained interpretations**
+    - IVDetect, an interpretable vulnerability detector with the philosophy of using Artificial Intelligence (AI) to detect vulnerabilities
+    - FSE 2021
+    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3468264.3468597), [[code]](https://github.com/vulnerabilitydetection/VulnerabilityDetectionResearch)
+
+- **What do they capture? a structural analysis of pre-trained language models for source code**
+    - NaturalCC, a sequence modeling toolkit that allows researchers and developers to train custom models for many software engineering tasks
+    - ICSE 2022
+    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3510003.3510050), [[code]](https://github.com/CGCL-codes/naturalcc)
+
+- **ReCode: Robustness Evaluation of Code Generation Models**
+    - a Robustness Evaluation framework for Code, aiming to provide comprehensive assessment for robustness of code generation models
+    - define robustness metrics based on over 30 transformations for code on docstrings, function and variable names, code syntax, and code format
+    - ACL 2023
+    - [[pdf]](https://aclanthology.org/2023.acl-long.773.pdf), [[code]](https://github.com/amazon-science/recode.)
 
 # New benchmark
 - **Deep Learning Based Program Generation From Requirements Text: Are We There Yet?**
     - [[ReCa]](https://github.com/ds4an/CoDas4CG), a large scale dataset that is composed of longer requirements as well as validated implementations
     - TSE 2022
-    - [[pdf]]()
+    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9173704)
+
 - **Deep Learning Based Vulnerability Detection: Are We There Yet?**
     - [[Chromium_And_Debian_Vulnerability_Data]](https://bit.ly/3bX30ai), curated a real-world dataset from developer/user reported vulnerabilities of Chromium and Debian projects
     - TSE 2021
-    - [[pdf]]()
+    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9448435)
+
 - **Generating realistic vulnerabilities via neural code editing: an empirical study**
     - [[SARD]](https://samate.nist.gov/SARD), Synthetic dataset
     - [[Real-world dataset]](https://zenodo.org/record/6897604), a real-world dataset based on BigVul and PatchDB
     - FSE 2022
-    - [[pdf]]()
+    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3540250.3549128)
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 31
+- **ReCode: Robustness Evaluation of Code Generation Models**
+    - robustness evaluation metrics for code-generation tasks: Robust Passs@k, Robust Drops@k, and Robust Relatives@k
+    - ACL 2023
+    - [[pdf]](https://aclanthology.org/2023.acl-long.773.pdf)
+
 
 # Research Groups
 
