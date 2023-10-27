@@ -1,12 +1,13 @@
 # ReliableLM4Code
-![GitHub last commit]()
-![badge]()
 
-This repository contains a curated list of papers, PhD theses, datasets, and tools that are devoted to research on Machine Learning for Software Engineering. The papers are organized into popular research areas so that researchers can find recent papers and state-of-the-art approaches easily.
+This repository contains supplementary material for the paper "Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey", submitted to the ACM Computing Surveys journal.
 
-Please feel free to send a pull request to add papers and relevant content that are not listed here.
+> Modern language models (LMs) have been successfully employed in source code generation and understanding, leading to a significant increase in research focused on learning-based code intelligence, such as automated
+bug repair, and test case generation. Despite their great potential, **language models for code intelligence (LM4Code) are susceptible to potential pitfalls, which hinder realistic performance and further impact their reliability and applicability in real-world deployment**. Such challenges drive the need for a comprehensive understanding - not just identifying these issues but delving into their possible implications and existing solutions to build more reliable language models tailored to code intelligence. Based on a well-defined systematic research approach, we conducted an extensive literature review to uncover the pitfalls inherent in LM4Code. Finally, 67 primary studies from top-tier venues have been identified. After carefully examining these studies, we designed a taxonomy of pitfalls in LM4Code research and conducted a systematic study to summarize the issues, implications, current solutions, and challenges of different pitfalls for LM4Code systems. We developed a comprehensive classification scheme that dissects pitfalls across four crucial aspects: data collection and labeling, system design and learning, performance evaluation, and deployment and maintenance. Through this study, we aim to provide a roadmap for researchers and practitioners, facilitating their understanding and utilization of LM4Code in reliable and trustworthy ways.
 
-> Note: to quickly access this page, use []()
+Please feel free to send a pull request to add papers and relevant content that are not listed here.  We uploaded our completed paper lists to Google Drive with detailed reviewed information. 
+
+([Rewiew paper lists](https://docs.google.com/spreadsheets/d/1DtE7WxjmHkDi9-jPV3H3D68klXeiKLr4prQRVbL3Qgg/edit?usp=sharing))
 
 ## Content
 - [SLR](#slr)
