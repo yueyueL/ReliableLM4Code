@@ -18,7 +18,6 @@ description: A repository for Language Models for Code (LM4Code) research and re
 url: "https://yueyueL.github.io/ReliableLM4Code/" 
 baseurl: "/ReliableLM4Code" # if your site is hosted at "https://yueyuel.github.io/ReliableLM4Code/"
 repository: yueyueL/ReliableLM4Code
-theme: just-the-docs
 
 permalink: pretty
 
