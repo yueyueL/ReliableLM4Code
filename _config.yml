@@ -18,36 +18,10 @@ description: A repository for Language Models for Code (LM4Code) research and re
 url: "https://yueyueL.github.io/ReliableLM4Code/" 
 baseurl: "/ReliableLM4Code" # if your site is hosted at "https://yueyuel.github.io/ReliableLM4Code/"
 repository: yueyueL/ReliableLM4Code
-
+theme: just-the-docs
 permalink: pretty
 
-exclude:
- # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
-   - .sass-cache/
-   - .jekyll-cache/
-   - gemfiles/
-   - Gemfile
-   - Gemfile.lock
-   - node_modules/
-   - vendor/bundle/
-   - vendor/cache/
-   - vendor/gems/
-   - vendor/ruby/
- # specific to the theme website:
-   - bin/
-   - lib/
-   - "*.gemspec"
-   - "*.gem"
-   - LICENSE.txt
-   - package.json
-   - package-lock.json
-   - Rakefile
-   - README.md
-   - CODE_OF_CONDUCT.md
-   - docker-compose.yml
-   - Dockerfile
- # theme test code
-   - fixtures/
+remote_theme: just-the-docs/just-the-docs
 
 # Set a path/url to a logo that will be displayed instead of the title
 #logo: "/assets/images/just-the-docs.png"
