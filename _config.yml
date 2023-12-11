@@ -18,10 +18,10 @@ description: A repository for Language Models for Code (LM4Code) research and re
 url: "https://yueyueL.github.io/ReliableLM4Code/" 
 baseurl: "/ReliableLM4Code" # if your site is hosted at "https://yueyuel.github.io/ReliableLM4Code/"
 repository: yueyueL/ReliableLM4Code
-theme: just-the-docs
 permalink: pretty
 
 remote_theme: just-the-docs/just-the-docs
+
 
 # Set a path/url to a logo that will be displayed instead of the title
 #logo: "/assets/images/just-the-docs.png"
