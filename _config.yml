@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Just the Docs
-description: A Jekyll theme for documentation
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://just-the-docs.com" # the base hostname & protocol for your site, e.g. http://example.com
-repository: just-the-docs/just-the-docs # for github-metadata
+title: ReliableLM4Code
+description: A repository for Language Models for Code (LM4Code) research and resources
+url: "https://yueyueL.github.io/ReliableLM4Code/" 
+repository: yueyueL/ReliableLM4Code
+
 
 permalink: pretty
 
@@ -101,8 +101,8 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Just the Docs on GitHub":
-    - "https://github.com/just-the-docs/just-the-docs"
+  "ReliableLM4Code on GitHub":
+    - "https://github.com/yueyueL/ReliableLM4Code"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -113,8 +113,8 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # External navigation links
 nav_external_links:
-  - title: Just the Docs on GitHub
-    url: https://github.com/just-the-docs/just-the-docs
+  - title: ReliableLM4Code on GitHub
+    url: https://github.com/yueyueL/ReliableLM4Code
 
 # Footer content
 # appears at the bottom of every page's main content
