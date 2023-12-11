@@ -119,6 +119,14 @@ nav_external_links:
 
 # Footer content
 # appears at the bottom of every page's main content
+# Navigation items
+nav_pages:
+  - title: Home
+    url: /docs/search.md
+    nav_order: 1
+
+
+
 
 # Back to top link
 back_to_top: true
