@@ -66,7 +66,7 @@ the peer-review process.
 
 ***Manual Search Venues:***
 
-| Acronym | <center/>Venues<center> |
+| Acronym | Venues |
 |---------|--------|
 |ASE |International Conference on Automated Software Engineering|
 |ESEC/FSE |Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering|

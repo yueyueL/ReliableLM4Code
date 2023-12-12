@@ -21,14 +21,3 @@ To bridge this gap, we conducted a systematic literature review on LLM4SE, focus
 - RQ4: We examine the specific SE tasks where LLMs have shown success to date, illustrating their practical contributions to the field.
 
 From the answers to these RQs, we discuss the current state-of-the-art and trends, identify gaps in existing research, and flag promising areas for future study.
-
-
-If you find this repository or our review paper useful, please cite:
-```
-@article{hou2023large,
-  title={Large language models for software engineering: A systematic literature review},
-  author={Hou, Xinyi and Zhao, Yanjie and Liu, Yue and Yang, Zhou and Wang, Kailong and Li, Li and Luo, Xiapu and Lo, David and Grundy, John and Wang, Haoyu},
-  journal={arXiv preprint arXiv:2308.10620},
-  year={2023}
-}
-```
