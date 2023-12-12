@@ -92,7 +92,7 @@ This page lists popular benchmarks for evaluating language models for code (LM4C
 - Release year: 2016
 - Paper: ["Summarizing Source Code using a Neural Attention Model"](https://aclanthology.org/P16-1195/)
 
-### 2018-07 IJCAI 2018 TL-CodeSum
+### TL-CodeSum
 - Release year: 2018
 - Paper: ["Summarizing Source Code with Transferred API Knowledge"](https://www.ijcai.org/proceedings/2018/314)
 
