@@ -46,6 +46,6 @@ nav_order: 4
 - **NDSS**: [Network and Distributed System Security Symposium](https://dblp.org/db/conf/ndss/index.html)
 
 ### A Conferences
-- **ESORICS**: [European Symposium on Research in Computer Security](https://
+- **ACM CCS**: [ACM Conference on Computer and Communications Security](https://dblp.org/db/conf/ccs/index.html)
 
 

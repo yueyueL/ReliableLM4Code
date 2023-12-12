@@ -6,8 +6,6 @@ has_children: true
 permalink: /docs/reliable_LM4Code_review
 ---
 
-# Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey
-
 This repository contains supplementary material for the paper "[Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey](https://arxiv.org/abs/2310.17903)", submitted to the ACM Computing Surveys journal.
 
 > Modern language models (LMs) have been successfully employed in source code generation and understanding, leading to a significant increase in research focused on learning-based code intelligence, such as automated
