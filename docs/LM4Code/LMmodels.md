@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Large Language Models
-parent: LM4Code-LM4SE
+parent: LM4Code_LM4SE
 ---
 
 # Large Language Models for Code
@@ -96,7 +96,10 @@ Language models have shown impressive capabilities for various natural language 
 - Paper: [GPT-4 Technical Report](https://openai.com/research/gpt-4)
 
 ### WizardCoder
-- Access: [WizardLM|WizardCoder](https://github.com/nlpxucan/WizardLM)
+- Access: [WizardCoder](https://github.com/nlpxucan/WizardLM
+- Release Date: 2023
+- Paper: [WizardCoder: Empowering Code Large Language Models with Evol-Instruct
+](https://arxiv.org/abs/2306.08568)
 
 ### PanGu-Coder
 - Part of: PanGu-α
@@ -225,6 +228,8 @@ Language models have shown impressive capabilities for various natural language 
 ## Encoder-decoder Models
 ### AlphaCode
 - Release Date: 2022/02
+- Access: [AlphaCode](https://alphacode.deepmind.com/)
+- Institute: DeepMind
 
 ### T5
 - Release Date: 2019

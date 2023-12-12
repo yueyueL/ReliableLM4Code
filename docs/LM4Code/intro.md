@@ -1,6 +1,6 @@
 ---
 layout: default
-title: LM4Code-LM4SE
+title: LM4Code_LM4SE
 nav_order: 3
 has_children: true
 permalink: /docs/LM4Code
@@ -31,5 +31,4 @@ If you find this repository or our review paper useful, please cite:
   journal={arXiv preprint arXiv:2308.10620},
   year={2023}
 }
-
 ```

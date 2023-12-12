@@ -65,6 +65,7 @@ the peer-review process.
 - Papers presenting analyses of cyber attacks or Operating Systems
 
 ***Manual Search Venues:***
+
 | Acronym | <center/>Venues<center> |
 |---------|--------|
 |ASE |International Conference on Automated Software Engineering|
