@@ -2,7 +2,6 @@
 layout: default
 title: Large Language Models
 parent: LM4Code/LM4SE
-nav_order: 1
 ---
 # Large Language Models for Code
 {: .no_toc }

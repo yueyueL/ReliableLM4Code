@@ -2,7 +2,6 @@
 layout: default
 title: SLR
 parent: Pitalls_Survey
-nav_order: 1
 ---
 
 # Systematic Literature Survey Process (SLR)

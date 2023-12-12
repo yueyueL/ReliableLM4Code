@@ -2,7 +2,6 @@
 layout: default
 title: Benchmark
 parent: LM4Code/LM4SE
-nav_order: 2
 ---
 # Benchmarks for LM4Code/LM4SE
 {: .no_toc }

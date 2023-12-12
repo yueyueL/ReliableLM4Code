@@ -2,7 +2,6 @@
 layout: default
 title: SLR_papers
 parent: Pitalls_Survey
-nav_order: 2
 ---
 
 # Papers
