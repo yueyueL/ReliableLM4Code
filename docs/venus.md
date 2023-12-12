@@ -1,7 +1,7 @@
 ---
 layout: default
 title: LM4CodeVenues
-nav_order: 4
+nav_order: 3
 ---
 # LM4Code Venues
 {: .no_toc }
