@@ -16,7 +16,9 @@ parent: LM4Code-LM4SE
 
 Language models have shown impressive capabilities for various natural language processing and software engineering tasks. This page catalogs key details and papers for influential LLMs that have been applied to software tasks.
 
-![](https://github.com/yueyueL/ReliableLM4Code/blob/main/figures/LLMs.png)
+![Distribution of LLMs](https://raw.githubusercontent.com/yueyueL/ReliableLM4Code/main/figures/LLMs.png)
+
+## Decoder-only Models
 
 ### GPT-1
 - Release Date: 2018-06
