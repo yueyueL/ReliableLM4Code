@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SLR_papers
+title: SLR papers
 parent: Pitalls_Survey
 ---
 

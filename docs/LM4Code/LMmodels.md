@@ -3,6 +3,7 @@ layout: default
 title: Large Language Models
 parent: LM4Code-LM4SE
 ---
+
 # Large Language Models for Code
 {: .no_toc }
 
@@ -16,7 +17,7 @@ parent: LM4Code-LM4SE
 
 Language models have shown impressive capabilities for various natural language processing and software engineering tasks. This page catalogs key details and papers for influential LLMs that have been applied to software tasks.
 
-![Distribution of LLMs](https://raw.githubusercontent.com/yueyueL/ReliableLM4Code/main/figures/LLMs.png)
+![Distribution of LLMs](../../figures/LLMs.png)
 
 ## Decoder-only Models
 
@@ -222,7 +223,6 @@ Language models have shown impressive capabilities for various natural language 
 ](https://arxiv.org/abs/2009.08366)
 
 ## Encoder-decoder Models
-
 ### AlphaCode
 - Release Date: 2022/02
 
