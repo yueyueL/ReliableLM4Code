@@ -34,23 +34,3 @@ If you want to check the survey results, please go to the [link](https://yueyuel
 ## Contribute to Reliable LM4Code
 We encourage contributions from the community to further enhance the LM4Code field. Whether you have research papers, datasets, or tools to share, please feel free to submit them to this repository.
 
-
-## Cites
-If you find this repository useful, please cite our survey paper:
-```
-@article{she2023pitfalls,
-  title={Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey},
-  author={She, Xinyu and Liu, Yue and Zhao, Yanjie and He, Yiling and Li, Li and Tantithamthavorn, Chakkrit and Qin, Zhan and Wang, Haoyu},
-  journal={arXiv preprint arXiv:2310.17903},
-  year={2023}
-}
-
-@article{hou2023large,
-  title={Large language models for software engineering: A systematic literature review},
-  author={Hou, Xinyi and Zhao, Yanjie and Liu, Yue and Yang, Zhou and Wang, Kailong and Li, Li and Luo, Xiapu and Lo, David and Grundy, John and Wang, Haoyu},
-  journal={arXiv preprint arXiv:2308.10620},
-  year={2023}
-}
-```
-
-

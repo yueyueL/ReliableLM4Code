@@ -1,122 +1,14 @@
 # ReliableLM4Code
 
-This repository contains supplementary material for the paper "[Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey](https://arxiv.org/abs/2310.17903)", submitted to the ACM Computing Surveys journal.
+This repository extends from our previous survey paper, "[Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey](https://arxiv.org/abs/2310.17903)". It includes necessary information for our research and a curated collection of LM4Code papers and other resources (datasets, tutorials, etc.). The focus is primarily on papers that use pre-trained models, especially large language models, to improve the reliability of language models in Software Engineering research.
+
+For more details, please access in this [link](https://yueyuel.github.io/ReliableLM4Code/)
+
 
 > Modern language models (LMs) have been successfully employed in source code generation and understanding, leading to a significant increase in research focused on learning-based code intelligence, such as automated
 bug repair, and test case generation. Despite their great potential, **language models for code intelligence (LM4Code) are susceptible to potential pitfalls, which hinder realistic performance and further impact their reliability and applicability in real-world deployment**. Such challenges drive the need for a comprehensive understanding - not just identifying these issues but delving into their possible implications and existing solutions to build more reliable language models tailored to code intelligence. Based on a well-defined systematic research approach, we conducted an extensive literature review to uncover the pitfalls inherent in LM4Code. Finally, 67 primary studies from top-tier venues have been identified. After carefully examining these studies, we designed a taxonomy of pitfalls in LM4Code research and conducted a systematic study to summarize the issues, implications, current solutions, and challenges of different pitfalls for LM4Code systems. We developed a comprehensive classification scheme that dissects pitfalls across four crucial aspects: data collection and labeling, system design and learning, performance evaluation, and deployment and maintenance. Through this study, we aim to provide a roadmap for researchers and practitioners, facilitating their understanding and utilization of LM4Code in reliable and trustworthy ways.
 
 Please feel free to send a pull request to add papers and relevant content that are not listed here.  We uploaded our completed paper lists to Google Drive with detailed reviewed information. 
-
-([Rewiew paper lists](https://docs.google.com/spreadsheets/d/1DtE7WxjmHkDi9-jPV3H3D68klXeiKLr4prQRVbL3Qgg/edit?usp=sharing))
-
-## Content
-- [SLR](#slr)
-    - [Process](#slr-process)
-    - [Methodology](#methodology)
-    - [Tools](#tools)
-- [Papers](#papers)
-    - [Type Inference](#type-inference)
-    - [Data Collection and Labeling](#data)
-        - [Sampling Bias](#sampling-bias)
-        - [Label Inaccuracy](#label-inaccuracy)
-        - [Data Noise](#data-noise)
-    - [System Design and Learning](#design)
-        - [Data Snooping](#data-snooping)
-        - [Spurious Correlations](#spurious-correlations)
-        - [Inappropriate Data Proprocessing](#data-proprocessing)
-        - [Inappropriate Model Design](#model-design)
-    - [Performance Evaluation](#evaluation)
-        - [Inappropriate Baseline](#baseline)
-        - [Inappropriate Test Set](#test-set)
-        - [Low Reproducibility](#low-reproducibility)
-        - [Inappropriate Performance Measures](#performance-measures)
-    - [Deployment and Maintainance](#deployment)
-        - [Lab-only evaluation](#lab-only)
-        - [Model Attack Threats](#model-attack)
-        - [Security concerns in generated code](#security-concerned)
-- [Public Tools](#public-tools)
-- [Research Groups](#research-groups)
-- [Venues](#venues)
-
-# SLR
-## Process
-
-To conduct a systematic review, we need to follow complete steps to collect, analyze and review the relevant literature works.
-
-![Study_identification_and_selection_process](https://github.com/yueyueL/ReliableLM4Code/assets/60457190/5598c243-88ad-422a-9a49-08e72d064079)
-
-
-**Steps:**
-<details>
-<summary>Click to expand</summary>
-    
-- Define the Review Questions
-- Develop the Protocol
-- Search Strategy
-- Study Selection
-- Data Extraction
-- Quality Assessment
-- Snowballing/Citation Tracking
-- Data Synthesis
-- Write the Report
-
-</details>
-  
-## Methodology
-***Search String:***
-<details>
-<summary>Click to expand</summary>
-
-- ***Keywords related to LMs:*** "LLM" OR "Large Language Model*" OR "Language Model*" OR
-"LM" OR "PLM" OR "Pre-trained" OR "Pre-training" OR "Natural Language Processing"
-OR "NLP" OR "Machine Learning" OR "ML" OR "Deep Learning" OR "DL" OR "Artificial
-Intelligence" OR "AI" OR "Transformer" OR "BERT" OR "CODEX" OR "GPT" OR "T5" OR
-"Sequence Model*" OR "Attention Model*" OR "Transfer Learning" OR "Neural Network*"
-OR "ChatGPT" OR "GPT-*" OR "Deep neural network*" OR "DNN*"
-- ***Keywords  related to SE tasks:*** "Software Engineering" OR "Software Development" OR "Program*" OR "Software Testing" OR "Software Mainten*" OR "SE" OR "Software Lifecycle" OR "Software Design*" OR "Code representation" OR "Code generation" OR "Code comment generation" OR "Code search" OR "Code localization" OR "Code completion" OR "Code summarization" OR "Method name generation" OR "Bug detection" OR "Bug localization" OR "Vulnerability detection" OR "Testing techniques" OR "Test case generation" OR "Program analysis" OR "Bug classification" OR "Defect prediction" OR "Program repair" OR "Code clone detection" OR "Bug report" OR "Software quality evaluation" OR "SATD detection" OR "Code smell detection" OR "Compiled-related" OR "Code review" OR "Software classification" OR "Code classification" OR "Code change" OR "Incident detection" OR "Requirement extraction" OR "Requirement traceability" OR "Requirement validation" OR "Effort cost prediction" OR "Mining GitHub/Github mining" OR "Mining SO (StackOverflow)/SO mining" OR "Mining app/App mining" OR "Mining tag/Tag mining" OR "Developer-based mining"
- </details>
- 
-***Exclude criteria:***
-<details>
-<summary>Click to expand</summary>
-    
-- The paper whose number of pages is less than 8.
--  Studies of which their full texts are inaccessible.
--  Duplicate papers or similar studies with different versions from the same authors.
-- The paper that is published as a SLR, review or survey.
-- Short papers, tool demos and editorials.
-- The paper that is published in a workshop or a doctoral symposium.
-- Studies belonging to books, thesis, monographs, keynotes, panels, or venues not executing
-the peer-review process.
-- Non-English written literature.
-- Literature not using language models.
-- Papers presenting analyses of cyber attacks or Operating Systems
-</details>
-
-***Manual Search Venues:***
-<details>
-<summary>Click to expand</summary>
-    
-| Acronym | <center/>Venues<center> |
-|---------|--------|
-|ASE |International Conference on Automated Software Engineering|
-|ESEC/FSE |Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering|
-|ICSE |International Conference on Software Engineering|
-|ISSTA |International Symposium on Software Testing and Analysis|
-|TOSEM |Transactions on Software Engineering and Methodology|
-|TSE| Transactions on Software Engineering|
-</details>
-    
-## Tools
-**Paper Collection**
-- [slrtools](https://github.com/out0/slrtool): Tool for Performing Systematic Literature Review
-- [elsapy](https://github.com/ElsevierDev/elsapy): A Python module for use with api.elsevier.com.
-- [dblp-python](https://github.com/ElsevierDev/elsapy): A simple Python wrapper around the DBLP API, currently supporting author search and author and publication lookup.
-
-**SnowBalling:**
-- [Litmap](https://app.litmaps.com/): Litmaps are visual citation maps that help you understand how your research connects. (*Both DOI list and Title list are ok for search !!!*)
-- [SnowGlobe](https://snowglobe.soc.northwestern.edu/): SnowGlobe is a program that assists with literature searching, using a technique called snowballing. (*Articles written after 2021 will not be able to be searched or found !!!*)
-- [CitationGecko](https://www.citationgecko.com/): This is a tool that uses the citation relations between scientific papers to help researchers find interesting and relevant paper.
 
 
 # Papers
@@ -241,268 +133,272 @@ the peer-review process.
 - **Analyzing Leakage of Personally Identifiable Information in Language Models** (2023), S&P, N Lukas, A Salem, R Sim, et al. [[pdf]](https://arxiv.org/pdf/2302.00539)
 - **CodexLeaks: Privacy Leaks from Code Generation Language Models in GitHub Copilot** (2023), USENIX Security, L Niu, S Mirza, Z Maradni, et al. [[pdf]](https://www.usenix.org/system/files/usenixsecurity23-niu.pdf)
 
-# Public Tools
--  **ACCENT** (Adversarial Code Comment gENeraTor)
-    - masked training
-    - an identifier substitution approach to craft adversarial code snippets, which are syntactically correct and semantically close to the original code snippet, but may mislead the DNNs to produce completely irrelevant code comments.
-    - TOSEM 2022
-    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3501256), [[code]](https://github.com/zhangxq-1/ACCENT-repository)
 
-- **AutoTransform**
-    - a Transformer-based NMT architecture to handle long sequences
-    - through addressing the out-off vocabulary, BPE(Byte-Pair Encoding)
-    - ICSE 2022
-    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3510003.3510067), [[code]](https://github.com/awsm-research/AutoTransform-Replication)
+# Language Models for Code Intelligence
+## Decoder-only Models
 
-- **Functionality-generalization**
-    - training set with diverse functionalities，out-of-vocabulary problem， incorporating locality into model architecture
-    - ASE 2021
-    - [[pdf]](https://ieeexplore.ieee.org/document/9678907), [[code]](https://github.com/thousfeet/Functionality-generalization)
+### GPT-1
+- Release Date: 2018-06
+- Institute: OpenAI
+- Paper: [Improving Language Understanding by Generative Pre-Training](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)
 
-- **CD-VulD**
-    - a new system for Cross Domain Software Vulnerability Discovery using deep learning (DL) and domain adaptation (DA).
-    - learn cross-domain representations
-    - TDSC 2022
-    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9054952)
+### GPT-2
+- Release Date: 2019-02
+- Institute: OpenAI
+- Paper: [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
 
-- **DietCode**
-    - explain to decrease the tokens
-    - aims at lightweight leverage of large pre-trained models for source code
-    - FSE 2022
-    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3540250.3549094), [[code]](https://github.com/zhangzwwww/DietCode)
+### GPT-3
+- Release Date: 2020-05
+- Institute: OpenAI
+- Paper: [Language models are few-shot learners](https://papers.nips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)
 
-- **BinUSE**
-    - a practical and efficient equivalence check, using under-constrained symbolic execution (USE)
-    - TSE 2023
-    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9707874)
+### Codex
+- Release Date: 2021-08
+- Institute: OpenAI
+- Paper: [Evaluating Large Language Models Trained on Code](https://arxiv.org/pdf/2107.03374.pdf)
 
-- **mmd**
-    - model-agnostic explaination
-    - The output of the technique can be useful for understanding limitations of the training data or the model itself
-    - FSE 2021
-    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3468264.3468614), [[code]](https://github.com/facebookresearch/mmd)
+### GPT-NeoX
+- Release Date: 2022-04
+- Access: [ckpt](https://github.com/EleutherAI/gpt-neox)
+- Paper: [GPT-NeoX-20B: An Open-Source Autoregressive Language Model](https://arxiv.org/pdf/2204.06745.pdf)
 
-- **Metropolis-Hastings Modifier (MHM)**
-    - Adversarial Training
-    - generates adversarial examples for DL models specialized for source code processing
-    - AAAI 2020
-    - [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/view/5469), [[code]](https://github.com/Metropolis-Hastings-Modifier/MHM)
+### GPT-Neo
+- Release Date: 2021-03
+- Source: [Github](https://github.com/EleutherAI/gpt-neo)
 
-- **ReVeal**
-    - Data clean
-    - TSE 2021
-    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9448435), [[code]](https://github.com/VulDetProject/ReVeal)
+### CodeGen
+- Release Date: 2022/03
+- Paper: [CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis](https://arxiv.org/abs/2203.13474)
 
-- **ghost-dl**
-    - a oversampling method
-    - non-DL technique, (artificially generating members of a minority class prior to running a learner) dramatically improves deep learning
-    - TSE 2021
-    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9429914), [[code]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9429914)
+### InstructGPT
+- Release Date: 2022/01
+- Paper: [Training language models to follow instructions with human feedback](http://arxiv.org/abs/2203.02155v1)
 
-- **HAN**
-    - Hierarchical Attention Network
-    - multiple structural code features (including control flow graph and AST) to reflect the code hierarchy, a two-layer attention network (a token layer and a statement layer)
-    - TSE 2022
-    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9031440)
+### CodeGeeX
+- Title: CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X
+- Year: 2023
+- Paper: [Link](https://arxiv.org/abs/2303.17568)
 
-- **RobustTrainer**
-    - learning deep predictive models on raw training datasets where the mislabelled samples and the imbalanced classes coexist.
-    - ASE 2022
-    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3551349.3556941), [[code]](https://github.com/RobustTrainer/RobustTrainers)
+### GPT-J
+- Release Date: 2023/06
+- Access: [GPT-J-6B](https://github.com/kingoflolz/mesh-transformer-jax/#gpt-j-6b), [GPT4All-J](https://github.com/nomic-ai/gpt4all#raw-model)
+- Paper: [GPT-J-6B: 6B JAX-Based Transformer](https://arankomatsuzaki.wordpress.com/2021/06/04/gpt-j/)
 
- - **SYNSHINE**
-    - input with compiler errors, large neural model leveraging unsupervised pre-training, multi-label classification
-    - TSE 2023
-    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9913705), [[code]](https://zenodo.org/record/7789329)
+### LLaMA
+- Release Date: 2023-02
+- Institute: Meta
+- Paper: [LLaMA: Open and Efficient Foundation Language Models](https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/)
 
-- **CARROTA**
-    - adversarial training and detection, an optimization-based attack technique
-    - TOSEM 2022
-    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3511887), [[code]](https://github.com/SEKE-Adversary/CARROT)
+### ChatGPT
+- Release Date: 2022-11
+- Access: [demo](https://openai.com/blog/chatgpt/), [api](https://share.hsforms.com/1u4goaXwDRKC9-x9IvKno0A4sk30)
+- Origin: [Blog](https://openai.com/blog/chatgpt/)
 
-- **CAT**
-    - automated code-comment cleaning tool
-    - FSE 2022
-    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3540250.3549145), [[code]](https://github.com/BuiltOntheRock/FSE22_BuiltOntheRock), [[pyton]](https://pypi.org/project/FSE22-CAT/0.0.1)
-
-- **apr4codex**
-    - APR / prompts for repair, APR techniques fix the incorrect solutions produced by language models in LeetCode contests.
-    - ICSE 2023
-    - [[pdf]](https://arxiv.org/pdf/2205.10583.pdf), [[code]](https://github.com/zhiyufan/apr4codex)
-
-- **CCTEST**
-    - test and repair code completion systems in black-box setting
-    - ICSE 2023
-    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10172845), [[HomePage]](https://sites.google.com/view/cctest-info/main-page)
-
-- **ContraBERT**
-    - an approach aims to improve the robustness of pre-trained models via contrastive learning, Contrastive Learning
-    - ICSE 2023
-    - [[pdf]](https://arxiv.org/pdf/2301.09072.pdf), [[HomePage]](https://sites.google.com/view/contrabert)
-
-- **REPEAT**
-    - a novel method for continual learning of code intelligence models
-    - ICSE 2023
-    - [[pdf]](https://arxiv.org/abs/2302.03482.pdf), [[code]](https://github.com/ReliableCoding/REPEAT)
-
-- **RepresentThemAll**
-    - a pre-trained approach that can learn the universal representation of bug reports and handle multiple downstream tasks
-    - ICSE 2023
-    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10172597), [[code]](https://github.com/ICSE-2023/RepresentThemALL)
-
-- **TENURE** 
-    - Template-based Neural Program Repair, which simultaneously absorbs the advantages of template- based and NMT-based APR methods
-    - ICSE 2023
-    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10172686), [[code]](https://github.com/mxx1219/TENURE)
-
-- **CREAM**
-    - A counterfactual reasoning-based framework, multi-task learning and counterfactual inference
-    - ICSE 2023
-    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10172869), [[code]](https://github.com/ReliableCoding/CREAM)
-    
-- **Telly**
-    - four probing tasks related to lexical, syntactic, semantic, and structural code properties
-    - Telly-𝐾 (efficiently fine-tunes pre-trained code models via selective layer freezing)
-    - ISSTA 2023
-    - [[pdf]](https://arxiv.org/pdf/2304.05216.pdf), [[code]](https://github.com/DeepSoftwareAnalytics/Telly)
-
-- **TEval+**
-    - a more realistic evaluation method TEval+ for NTOG and summarize seven rules of thumb to boost NTOG approaches into their practical usage
-    - ISSTA 2023
-    - [[pdf]](https://arxiv.org/pdf/2305.17047.pdf), [[code]](https://github.com/microsoft/toga)
-
-- **analysing_pii_leakage**
-    -  rigorous game-based definitions for three types of PII leakage via black-box extraction, inference, and reconstruction attacks with only API access to an LM
-    - S&P 2023
-    - [[pdf]](https://arxiv.org/pdf/2302.00539.pdf), [[code]](https://github.com/microsoft/analysing_pii_leakage)
-
-- **CodexLeaks**
-    - a semi-automated filtering method using a blind membership inference attack
-    - USENIX Security 2023
-    - [[pdf]](https://www.usenix.org/system/files/usenixsecurity23-niu.pdf), [[code]](https://github.com/niuliang42/CodexLeaks)
-
-- **CoProtector**
-    - Utilizing data poisoning techniques to arm source code repositories for defending against such exploits
-    - WWW 2022
-    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3485447.3512225), [[code]](https://github.com/v587su/CoProtector)
-
-- **LLaMA-Reviewer**
-    - an innovative framework that leverages the capabilities of LLaMA, a popular LLM, in the realm of code review
-    - ISSRE 2023
-    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3485447.3512225), [[code]](https://doi.org/10.5281/zenodo.7991113)
-
-- **Compressor**
-    - a novel approach that can compress the pre-trained models of code into extremely small models with negligible performance sacrifice
-    - ASE 2022
-    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3551349.3556964), [[code]](https://github.com/soarsmu/Compressor)
-
-- **NNGen**
-    - a simpler and faster approach to generate concise commit messages using the nearest neighbor algorithm
-    - ASE 2018
-    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3238147.3238190), [[code]](https://goo.gl/63B976)
-
-# New model
-- **Actor-critic network**
-    - an abstract syntax tree structure as well as sequential content of code snippets into a deep reinforcement learning framework
-    - ASE 2018
-    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3238147.3238206)
-      
-- **CugLM**
-    - a multi-task learning based pre-trained language model for code understanding and code generation with a Transformer-based neural architecture
-    - ASE 2021
-    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3324884.3416591)
-
--  **SDA-Trans**
-    -  adversarial training, unsupervised training
-    - a syntax and domain-aware model for program translation, which leverages the syntax structure and domain knowledge to enhance the cross-lingual transfer ability
-    - ICSE 2023
-    - [[pdf]](https://arxiv.org/pdf/2302.03908.pdf)
-
-- **Tare**
-    -  a type-aware model for neural program repair to learn the typing rules
-    - ICSE 2023
-    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10172781), [[code]](https://zenodo.org/record/7029405)
-
-- 
-  
-# XAI
-- **Interpreting Deep Learning-based Vulnerability Detector Predictions Based on Heuristic Searching**
-    - a framework for interpreting predictions of deep learning-based vulnerability detectors
-    - The framework is centered at identifying a small number of tokens that make important contributions to a particular prediction, the novelty of the framework can be characterized as follows: (1) it does not assume the detector’s local decision boundary is linear; (2) it does not assume the features are independent of each other but instead braces the association between features when searching for important features; (3) it searches important features by perturbing examples, while considering feature combinations rather than individual features.
-    - TOSEM 2021
-    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3429444)
-
-- **Thinking Like a Developer? Comparing the Attention of Humans with Neural Models of Code**
-    - A methodology for recording human attention
-    - ASE 2021
-    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9678712), [[code]](https://github.com/MattePalte/thinking-like-a-developer)
-
--  **Vulnerability detection with fine-grained interpretations**
-    - IVDetect, an interpretable vulnerability detector with the philosophy of using Artificial Intelligence (AI) to detect vulnerabilities
-    - FSE 2021
-    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3468264.3468597), [[code]](https://github.com/vulnerabilitydetection/VulnerabilityDetectionResearch)
-
-- **What do they capture? a structural analysis of pre-trained language models for source code**
-    - NaturalCC, a sequence modeling toolkit that allows researchers and developers to train custom models for many software engineering tasks
-    - ICSE 2022
-    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3510003.3510050), [[code]](https://github.com/CGCL-codes/naturalcc)
-
-- **ReCode: Robustness Evaluation of Code Generation Models**
-    - a Robustness Evaluation framework for Code, aiming to provide comprehensive assessment for robustness of code generation models
-    - define robustness metrics based on over 30 transformations for code on docstrings, function and variable names, code syntax, and code format
-    - ACL 2023
-    - [[pdf]](https://aclanthology.org/2023.acl-long.773.pdf), [[code]](https://github.com/amazon-science/recode.)
-
-# New benchmark
-- **Deep Learning Based Program Generation From Requirements Text: Are We There Yet?**
-    - [[ReCa]](https://github.com/ds4an/CoDas4CG), a large scale dataset that is composed of longer requirements as well as validated implementations
-    - TSE 2022
-    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9173704)
-
-- **Deep Learning Based Vulnerability Detection: Are We There Yet?**
-    - [[Chromium_And_Debian_Vulnerability_Data]](https://bit.ly/3bX30ai), curated a real-world dataset from developer/user reported vulnerabilities of Chromium and Debian projects
-    - TSE 2021
-    - [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9448435)
-
-- **Generating realistic vulnerabilities via neural code editing: an empirical study**
-    - [[SARD]](https://samate.nist.gov/SARD), Synthetic dataset
-    - [[Real-world dataset]](https://zenodo.org/record/6897604), a real-world dataset based on BigVul and PatchDB
-    - FSE 2022
-    - [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3540250.3549128)
-
-- **ReCode: Robustness Evaluation of Code Generation Models**
-    - robustness evaluation metrics for code-generation tasks: Robust Passs@k, Robust Drops@k, and Robust Relatives@k
-    - ACL 2023
-    - [[pdf]](https://aclanthology.org/2023.acl-long.773.pdf)
+### StableLM-Alpha
+- Release Date: 2023/04
+- Access: [StableLM-Alpha](https://github.com/Stability-AI/StableLM#stablelm-alpha)
+- Paper: [Stability AI Launches the First of its StableLM Suite of Language Models](https://stability.ai/blog/stability-ai-launches-the-first-of-its-stablelm-suite-of-language-models)
 
 
-# Research Groups
+### InCoder
+- Paper: "InCoder: A Generative Model for Code Infilling and Synthesis"
+- Authors: Daniel Fried et al.
+- Release Date: 2023   
+- Paper: [Link](http://arxiv.org/abs/2204.05999)
+
+### GPT-4
+- Release Date: 2023-03
+- Institute: OpenAI
+- Paper: [GPT-4 Technical Report](https://openai.com/research/gpt-4)
+
+### WizardCoder
+- Access: [WizardCoder](https://github.com/nlpxucan/WizardLM
+- Release Date: 2023
+- Paper: [WizardCoder: Empowering Code Large Language Models with Evol-Instruct
+](https://arxiv.org/abs/2306.08568)
+
+### PanGu-Coder
+- Part of: PanGu-α
+- Release Date: 2020
+- Paper: ["PanGu-α: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation"](https://arxiv.org/abs/2010.11934)
+
+### OPT
+- Release Date: 2022-05
+- Access: [api](https://opt.alpa.ai), [ckpt](https://github.com/facebookresearch/metaseq/tree/main/projects/OPT)
+- Paper: [OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/pdf/2205.01068.pdf)
+
+### StarCoder
+- Release Date: 2023/05
+- Access: [starcoder](https://huggingface.co/bigcode/starcoder)
+- Papers: [StarCoder: A State-of-the-Art LLM for Code](https://huggingface.co/blog/starcoder), [StarCoder: May the source be with you!](https://drive.google.com/file/d/1cN-b9GnWtHzQRoE7M7gAEyivY0kl4BYs/view)
+
+### SantaCoder
+- Release Date: 2023/01
+- Access: [santacoder](https://huggingface.co/bigcode/santacoder)
+- Paper: [SantaCoder: don't reach for the stars!](https://arxiv.org/abs/2301.03988)
+
+### PaLM
+- Release Date: 2022-04
+- Institute: Google
+- Paper: [PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/pdf/2204.02311.pdf)
+
+### Vicuna
+- Release Date: 2023/03
+- Blog: [Link](https://lmsys.org/blog/2023-03-30-vicuna/)
+
+### Flan-UL2
+- Release Date: 2023-03
+- Institute: Google
+- Blog: [Flan-UL2 Blog](https://www.yitay.net/blog/flan-ul2-20b)
+
+### CPM-Bee
+- Release Date: 2022-10
+- Institute: Baidu
+- Paper: [CPM: A Large-scale Generative Chinese Pre-trained Language Model](https://arxiv.org/pdf/2012.00413.pdf)
+
+### MT-NLG
+- Release Date: 2022-01
+- Institute: Microsoft
+- Paper: [Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model](https://arxiv.org/pdf/2201.11990.pdf)
+
+### GLM
+- Release Date: 2022-10
+- Institute: Tsinghua University
+- Paper: [GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL](https://arxiv.org/pdf/2210.02414.pdf)
+
+### YaLM
+- Release Date: 2022-06
+- Institute: Yandex
+- Blog: [YaLM Blog](https://medium.yandex/yandex-publishes-yalm-100b-its-the-largest-gpt-like-neural-network-in-open-source-d1df53d0e9a6)
+
+### Alpaca
+- Release Date: 2023-03
+- Institute: Stanford University
+- Access: [Alpaca GitHub](https://github.com/tatsu-lab/stanford_alpaca)
+
+### RWKV-4
+- Release Date: 2022-09
+- Institute: Independent (BlinkDL)
+- Access: [RWKV-4 GitHub](https://github.com/BlinkDL/RWKV-LM)
+
+### Sparrow
+- Release Date: 2022-09
+- Institute: DeepMind
+- Paper: [Improving alignment of dialogue agents via targeted human judgements](https://arxiv.org/pdf/2209.14375.pdf)
+
+### Falcon
+- Release Date: 2023-05
+- Institute: Technology Innovation Institute (TII)
+- Access: [Falcon Homepage](https://falconllm.tii.ae)
+
+### Code Llama
+- Release Date: 2023
+- Institute: Meta (Facebook)
+- Paper: [Code Llama: Open Foundation Models for Code](https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/)
+
+### RedPajama-INCITE
+- Release Date: Not specified
+- Blog: [RedPajama-INCITE Blog](https://www.together.xyz/blog/redpajama-models-v1)
+
+### DeciCoder-1B
+- Release Date: 2023-08
+- Institute: Deci AI
+- Blog: [DeciCoder Blog](https://deci.ai/blog/decicoder-efficient-and-accurate-code-generation-llm/)
+
+### OpenLLaMA
+- Release Date: 2023-05
+- Institute: Not specified
+- Access: [OpenLLaMA Access](https://huggingface.co/Salesforce/codegen25-7b-multi/blob/main/README.md)
 
 
-# Venues
-## Conferences
-- **AI Domain**
-    - **AAAI**, the Association for the Advancement of Artificial Intelligence
-    - **ACL**, the Association for Computational Linguistics
-- **SE Domain**
-    - **ICSE**, the International Conference on Software Engineering
-    - **FSE**, Symposium on the Foundations of Software Engineering
-    - **ASE**, the International Conference on Automated Software Engineering
-    - **ISSTA**, the International Symposium on Software Testing and Analysis
-    - **ISSRE**, IEEE International Symposium on Software Reliability
-    - **SANER**, IEEE International Conference on Software Analysis, Evolution, and Reengineering Engineering
-    - **OOPSLA**, the ACM Conference on Systems, Programming, Languages, and Applications
-- **Security Domain**
-    - **S&P**, IEEE Symposium on Security and Privacy
-    - **USENIX Security**, USENIX Security Symposium
-- **Internet and Web technology Domain**
-    - **WWW**, International World Wide Web Conference
+### CodeGPT
+- Release Date: 2021
+- Paper: [CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation](https://arxiv.org/pdf/2102.04664.pdf)
 
-## Journals
-- **SE Domain**
-    - **TSE**, the IEEE Transactions on Software Engineering
-    - **TOSEM**, ACM Transactions on Software Engineering and Methodology
-    - **JSS**, Journal of Systems and Software
-- **Security Domain**
-    - **TDSC**, IEEE Transactions on Dependable and Secure Computing
-    - **TIFS**, IEEE Transactions on Information Forensics and Security
+
+## Encoder-only Models
+### BERT
+- Release Date: 2018-10
+- Institute: Google
+- Paper: [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423.pdf)
+
+### ALBERT
+- Release Date: 2019
+- Paper: [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942)
+
+### RoBERTa
+- Release Date: 2019
+- Paper: [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692)
+
+### CodeBERT
+- Release Date: 2020-04
+- Institute: Microsoft
+- Paper: [CodeBERT: A Pre-Trained Model for Programming and Natural Languages](https://arxiv.org/abs/2002.08155)
+
+### GraphCodeBERT
+- Release Date: 2022/03
+- Access: [GraphCodeBERT](https://huggingface.co/microsoft/graphcodebert-base)
+- Paper: [GraphCodeBERT: Pre-training Code Representations with Data Flow
+](https://arxiv.org/abs/2009.08366)
+
+## Encoder-decoder Models
+### AlphaCode
+- Release Date: 2022/02
+- Access: [AlphaCode](https://alphacode.deepmind.com/)
+- Institute: DeepMind
+
+### T5
+- Release Date: 2019
+- Paper: [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683)
+- Checkpoint: [Link](https://huggingface.co/t5-11b)
+
+### CodeT5
+- Release Date: 2021
+- Access: [CodeT5](https://huggingface.co/salesforce/codet5-small)
+- Paper: [CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation](https://arxiv.org/abs/2109.00859)
+
+
+### CodeT5+
+- Release Date: 2023/05
+- Access: [CodeT5+](https://github.com/salesforce/CodeT5/tree/main/CodeT5+)
+- Paper: [CodeT5+: Open Code Large Language Models for Code Understanding and Generation](https://arxiv.org/abs/2305.07922)
+
+
+### UnixCoder
+- Release Date: 2022
+- Access: [UniXcoder on Hugging Face](https://huggingface.co/microsoft/unixcoder-base)
+- Paper: [UniXcoder: Unified Cross-Modal Pre-training for Code Representation
+](https://arxiv.org/abs/2203.03850)
+
+### PLBART
+- Release Date: 2021
+- Paper: [Unified Pre-training for Program Understanding and Generation
+](https://arxiv.org/abs/2103.06333)
+
+
+### CodeReviewer
+- Release Date: 2022
+- Access: [CodeReviewer](https://huggingface.co/microsoft/codereviewer)
+- Paper: [Automating Code Review Activities by Large-Scale Pre-training](https://arxiv.org/abs/2203.09095)
+
+
+
+## Cites
+If you find this repository useful, please cite our survey paper:
+```
+@article{she2023pitfalls,
+  title={Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey},
+  author={She, Xinyu and Liu, Yue and Zhao, Yanjie and He, Yiling and Li, Li and Tantithamthavorn, Chakkrit and Qin, Zhan and Wang, Haoyu},
+  journal={arXiv preprint arXiv:2310.17903},
+  year={2023}
+}
+
+@article{hou2023large,
+  title={Large language models for software engineering: A systematic literature review},
+  author={Hou, Xinyi and Zhao, Yanjie and Liu, Yue and Yang, Zhou and Wang, Kailong and Li, Li and Luo, Xiapu and Lo, David and Grundy, John and Wang, Haoyu},
+  journal={arXiv preprint arXiv:2308.10620},
+  year={2023}
+}
+```
+
+
