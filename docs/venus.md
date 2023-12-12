@@ -1,6 +1,6 @@
 ---
 layout: default
-title: LM4CodeVenues
+title: Relevant Venues
 nav_order: 4
 ---
 # LM4Code Venues
@@ -14,7 +14,6 @@ nav_order: 4
 
 ---
 
-## AI Domain
 
 
 ## SE Domain (Software Engineering)
@@ -84,7 +83,7 @@ nav_order: 4
 - **Designs, Codes and Cryptography**: [Designs, Codes and Cryptography](https://dblp.org/db/journals/dcc/)
 - **Journal of Computer Security**: [Journal of Computer Security](https://dblp.org/db/journals/jcs/)
 
-
+## AI Domain
 ### CCF A/Core A* Conferences
 - **ICLR**: [International Conference on Learning Representations](https://dblp.org/db/conf/iclr/index.html)
 - **AAAI**: [AAAI Conference on Artificial Intelligence](https://dblp.org/db/conf/aaai/)
@@ -133,7 +132,7 @@ nav_order: 4
 
 ## Related Info
 - **CCF ranking**: [CCF](https://www.ccf.org.cn/Academic_Evaluation/By_category/)
-- **Core ranking**: [Core](http://www.core.edu.au/conference-portal)
+- **CORE ranking**: [CORE](http://www.core.edu.au/conference-portal)
 - **DBLP**: [DBLP](https://dblp.org/)
 - **Google Scholar**: [Google Scholar](https://scholar.google.com/)
 - **Submission Deadline**: [ccfddl](https://ccfddl.github.io/)

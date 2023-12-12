@@ -11,7 +11,10 @@ permalink: /
 Collections of research papers and tools for reliable LM4Code....surveys, datasets, papers, benchmarks
 {: .fs-6 .fw-300 }
 
-This repos contains ...... , extend from our previous survey papers the paper "[Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey](https://arxiv.org/abs/2310.17903)"
+This repos contains repos is, extend from our previous survey papers the paper "[Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey](https://arxiv.org/abs/2310.17903)"
+it includes neccessary info for our research
+A niche collection of LM4Code papers and other resources (dataset, tutorial, etc.), this list will focus mostly on the papers that use pre-trained models especiall large language models
+to improve the reliable language models in SE..  research 
 
 
 ## About our survey
