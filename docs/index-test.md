@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tools
+title: Markdown kitchen sink
 nav_order: 99
 ---
 
