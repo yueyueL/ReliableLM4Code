@@ -17,7 +17,7 @@ nav_order: 1
 
 Language models have shown impressive capabilities for various natural language processing and software engineering tasks. This page catalogs key details and papers for influential LLMs that have been applied to software tasks.
 
-![](../figures/LLMs.png)
+![](https://github.com/yueyueL/ReliableLM4Code/blob/main/figures/LLMs.png)
 
 ### GPT-1
 - Release Date: 2018-06
