@@ -21,6 +21,7 @@ This repository extends from our previous survey paper, "[Pitfalls in Language M
     - [Benchmark Datasets](https://yueyuel.github.io/ReliableLM4Code/docs/LM4Code/benchmark/)
 - [Relevant Surveys and Tutorial](https://yueyuel.github.io/ReliableLM4Code/docs/relevant_surveys/)
 - [Explanable LM4Code](https://yueyuel.github.io/ReliableLM4Code/docs/xai_lm4code/)
+- [Top Researchers in LM4Code](https://yueyuel.github.io/ReliableLM4Code/docs/researchers/)
 - [Relevant Venus](https://yueyuel.github.io/ReliableLM4Code/docs/venus/)
 
 ## About our survey
