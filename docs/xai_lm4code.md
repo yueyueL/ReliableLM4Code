@@ -16,64 +16,64 @@ nav_order: 5
 
 
 ## Surveys for General XAI
-- Interpretable Machine Learning, 2020, [paper](https://christophm.github.io/interpretable-ml-book/)
-- Explainable AI (XAI): Core ideas, techniques, and solutions, CSUR 2023, [paper](https://orca.cardiff.ac.uk/id/eprint/152361/1/3561048.pdf)
-- Techniques for interpretable machine learning, Communications of the ACM, 2019, [paper](https://dl.acm.org/doi/fullHtml/10.1145/3359786)
-- Post-hoc interpretability for neural nlp: A survey, CSUR 2023, [paper](https://dl.acm.org/doi/pdf/10.1145/3546577)
-- Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead, Nature Machine Intelligence, 2019, [paper](https://www.nature.com/articles/s42256-019-0048-x)
-- Interpretable machine learning: definitions, methods, and applications, 2019, [paper](https://arxiv.org/pdf/1901.04592.pdf?fbclid=IwAR2frcHrhLc4iaH5-TmKKq263NVvAKHtG4uQoiVNDeLAG3QFzdje-yzZjiQ)
-- Evaluating explanation methods for deep learning in security, EuroS&P 2020, [paper](https://ieeexplore.ieee.org/abstract/document/9230374/)
-- A survey of methods for explaining black box models, ACM Computing Surveys, 2020, [paper](https://dl.acm.org/doi/abs/10.1145/3236009)
-- On the explainability of natural language processing deep models, CSUR, 2022, [paper](https://dl.acm.org/doi/abs/10.1145/3529755)
-- From Anecdotal Evidence to Quantitative Evaluation Methods: A Systematic Review on Evaluating Explainable AI, CSUR, 2023, [paper](https://dl.acm.org/doi/10.1145/3583558), [repository](https://github.com/utwente-dmb/xai-papers)
+- **Interpretable Machine Learning, 2020**, [paper](https://christophm.github.io/interpretable-ml-book/)
+- **Explainable AI (XAI): Core ideas, techniques, and solutions**, CSUR 2023, [paper](https://orca.cardiff.ac.uk/id/eprint/152361/1/3561048.pdf)
+- **Techniques for interpretable machine learning**, Communications of the ACM, 2019, [paper](https://dl.acm.org/doi/fullHtml/10.1145/3359786)
+- **Post-hoc interpretability for neural nlp: A survey**, CSUR 2023, [paper](https://dl.acm.org/doi/pdf/10.1145/3546577)
+- **Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead, Nature Machine Intelligence**, 2019, [paper](https://www.nature.com/articles/s42256-019-0048-x)
+- **Interpretable machine learning: definitions, methods, and applications**, 2019, [paper](https://arxiv.org/pdf/1901.04592.pdf?fbclid=IwAR2frcHrhLc4iaH5-TmKKq263NVvAKHtG4uQoiVNDeLAG3QFzdje-yzZjiQ)
+- **Evaluating explanation methods for deep learning in security**, EuroS&P 2020, [paper](https://ieeexplore.ieee.org/abstract/document/9230374/)
+- **A survey of methods for explaining black box models, ACM Computing Surveys**, 2020, [paper](https://dl.acm.org/doi/abs/10.1145/3236009)
+- **On the explainability of natural language processing deep models**, CSUR, 2022, [paper](https://dl.acm.org/doi/abs/10.1145/3529755)
+- **From Anecdotal Evidence to Quantitative Evaluation Methods: A Systematic Review on Evaluating Explainable AI**, CSUR, 2023, [paper](https://dl.acm.org/doi/10.1145/3583558), [repository](https://github.com/utwente-dmb/xai-papers)
 
 ## Surveys for XAI for LM4Code
-- A systematic literature review of explainable AI for software engineering, 2023, [paper](https://arxiv.org/abs/2302.06065)
-- Explainable ai for se: Challenges and future directions, 2023, [paper](https://ieeexplore.ieee.org/abstract/document/10109341/)
+- **A systematic literature review of explainable AI for software engineering**, 2023, [paper](https://arxiv.org/abs/2302.06065)
+- **Explainable ai for se: Challenges and future directions**, 2023, [paper](https://ieeexplore.ieee.org/abstract/document/10109341/)
 
 ## Repositories for General XAI
-- Awesome-explainable-AI
+- **Awesome-explainable-AI**
     - [Repository](https://github.com/wangyongjie-ntu/Awesome-explainable-AI)
     - A collection of research materials on explainable AI/ML
-- awesome-machine-learning-interpretability
+- **awesome-machine-learning-interpretability**
     - [Repository](https://github.com/jphall663/awesome-machine-learning-interpretability)
     - A maintained and curated list of practical and awesome responsible machine learning resources.
-- lopusz/awesome-interpretable-machine-learning
+- **lopusz/awesome-interpretable-machine-learning**
     - [Repository](https://github.com/lopusz/awesome-interpretable-machine-learning)
     - Opinionated list of resources facilitating model interpretability (introspection, simplification, visualization, explanation).
-- Explainable Artificial Intelligence
+- **Explainable Artificial Intelligence**
     - [Repository](https://interpretable-ml-class.github.io/)
     - A course on Explainable Artificial Intelligence (XAI) and Interpretable Machine Learning (IML) at Harvard University
-- utwente-dmb/xai-papers
+- **utwente-dmb/xai-papers**
     - [Repository](https://github.com/utwente-dmb/xai-papers)
-    - This is an exploration and visualisation website for a categorization of explainable AI papers, hosted on Github pages. The initial set of XAI papers was collected and labelled by Nauta et al. (2023) as part of a large-scale literature review on the evaluation of Explainable AI, published in ACM Computing Surveys. 
-- samzabdiel/XAI
+    - This is an exploration and visualization website for a categorization of explainable AI papers, hosted on Github pages. The initial set of XAI papers was collected and labeled by Nauta et al. (2023) as part of a large-scale literature review on the evaluation of Explainable AI, published in ACM Computing Surveys.
+- **samzabdiel/XAI**
     - [Repository](https://github.com/samzabdiel/XAI)
-    - Papers and code of Explainable AI esp. w.r.t. Image classificiation
+    - Papers and code of Explainable AI esp. w.r.t. Image classification
 
 ## Tools for XAI
-- shap
+- **shap**
     - [Repository](https://github.com/shap/shap)
     - SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. It connects optimal credit allocation with local explanations using the classic Shapley values from game theory and their related extensions.
     - Paper: [A Unified Approach to Interpreting Model Predictions](https://arxiv.org/abs/1705.07874)
-- marcotcr/lime
+- **marcotcr/lime**
     - [Repository](https://github.com/marcotcr/lime)
     - Lime is about explaining what machine learning classifiers (or models) are doing. At the moment, it supports explaining individual predictions for text classifiers or classifiers that act on tables (numpy arrays of numerical or categorical data) or images, with a package called lime (short for local interpretable model-agnostic explanations).
     - Paper: [“Why Should I Trust You?” Explaining the Predictions of Any Classifier](https://arxiv.org/abs/1602.04938)
-- marcotcr/anchor
+- **marcotcr/anchor**
     - [Repository](https://github.com/marcotcr/anchor)
     - Code for "High-Precision Model-Agnostic Explanations" paper
     - Paper: [High-Precision Model-Agnostic Explanations](https://homes.cs.washington.edu/~marcotcr/aaai18.pdf)
-- Transformer-Explainability
+- **Transformer-Explainability**
     - [Repository](https://github.com/hila-chefer/Transformer-Explainability)
-    - Official PyTorch implementation for Transformer Interpretability Beyond Attention Visualization, a novel method to visualize classifications by Transformer based networks.
-- Ecco
+    - Official PyTorch implementation for Transformer Interpretability Beyond Attention Visualization, a novel method to visualize classifications by Transformer-based networks.
+- **Ecco**
     - [Repository](https://github.com/jalammar/ecco)
     - Explain, analyze, and visualize NLP language models. Ecco creates interactive visualizations directly in Jupyter notebooks explaining the behavior of Transformer-based language models (like GPT2, BERT, RoBERTA, T5, and T0).
-- Captum
+- **Captum**
     - [Repository](https://github.com/pytorch/captum)
-    - Captum is a model interpretability and understanding library for PyTorch. Captum means comprehension in Latin and contains general purpose implementations of integrated gradients, saliency maps, smoothgrad, vargrad and others for PyTorch models. It has quick integration for models built with domain-specific libraries such as torchvision, torchtext, and others.
-- AIX360
+    - Captum is a model interpretability and understanding library for PyTorch. Captum means comprehension in Latin and contains general-purpose implementations of integrated gradients, saliency maps, smooth grad, vargrad, and others for PyTorch models. It has quick integration for models built with domain-specific libraries such as torchvision, torchtext, and others.
+- **AIX360**
     - [Repository](https://github.com/Trusted-AI/AIX360)
     - The AI Explainability 360 toolkit is an open-source library that supports interpretability and explainability of datasets and machine learning models. The AI Explainability 360 Python package includes a comprehensive set of algorithms that cover different dimensions of explanations along with proxy explainability metrics. The AI Explainability 360 toolkit supports tabular, text, images, and time series data.
 

@@ -10,6 +10,16 @@ bug repair, and test case generation. Despite their great potential, **language 
 
 Please feel free to send a pull request to add papers and relevant content that are not listed here.  We uploaded our completed paper lists to Google Drive with detailed reviewed information. 
 
+## Content
+- [About our survey](https://yueyuel.github.io/ReliableLM4Code/docs/reliable_LM4Code_review)
+- [What is LM4Code?](https://yueyuel.github.io/ReliableLM4Code/docs/LM4Code)
+    - [LLMs](https://yueyuel.github.io/ReliableLM4Code/docs/LM4Code/LMmodels/)
+    - [LM4Code Tasks](https://yueyuel.github.io/ReliableLM4Code/docs/LM4Code/SEtasks/)
+    - [Benchmark Datasets](https://yueyuel.github.io/ReliableLM4Code/docs/LM4Code/benchmark/)
+- [Relevant Surveys and Tutorial](https://yueyuel.github.io/ReliableLM4Code/docs/relevant_surveys/)
+- [Explanable LM4Code](https://yueyuel.github.io/ReliableLM4Code/docs/xai_lm4code/)
+- [Relevant Venus](https://yueyuel.github.io/ReliableLM4Code/docs/venus/)
+
 
 # Papers
 ## Type Inference
