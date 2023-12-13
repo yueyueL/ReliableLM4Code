@@ -24,6 +24,23 @@ This repository extends from our previous survey paper, "[Pitfalls in Language M
 - [Top Researchers in LM4Code](https://yueyuel.github.io/ReliableLM4Code/docs/researchers/)
 - [Relevant Venus](https://yueyuel.github.io/ReliableLM4Code/docs/venus/)
 
+If you find this repository useful, please cite our survey paper:
+```
+@article{she2023pitfalls,
+  title={Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey},
+  author={She, Xinyu and Liu, Yue and Zhao, Yanjie and He, Yiling and Li, Li and Tantithamthavorn, Chakkrit and Qin, Zhan and Wang, Haoyu},
+  journal={arXiv preprint arXiv:2310.17903},
+  year={2023}
+}
+
+@article{hou2023large,
+  title={Large language models for software engineering: A systematic literature review},
+  author={Hou, Xinyi and Zhao, Yanjie and Liu, Yue and Yang, Zhou and Wang, Kailong and Li, Li and Luo, Xiapu and Lo, David and Grundy, John and Wang, Haoyu},
+  journal={arXiv preprint arXiv:2308.10620},
+  year={2023}
+}
+```
+
 ## About our survey
 Our survey paper, “Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey”, discusses how Language Models for Code Intelligence (LM4Code) are susceptible to potential pitfalls. These pitfalls can hinder realistic performance and impact their reliability and applicability in real-world deployment.
 
