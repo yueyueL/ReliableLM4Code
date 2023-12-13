@@ -24,7 +24,6 @@ This repository extends from our previous survey paper, "[Pitfalls in Language M
 - [Top Researchers in LM4Code](https://yueyuel.github.io/ReliableLM4Code/docs/researchers/)
 - [Relevant Venus](https://yueyuel.github.io/ReliableLM4Code/docs/venus/)
 
-
 ## About our survey
 Our survey paper, “Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey”, discusses how Language Models for Code Intelligence (LM4Code) are susceptible to potential pitfalls. These pitfalls can hinder realistic performance and impact their reliability and applicability in real-world deployment.
 
