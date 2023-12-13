@@ -134,8 +134,6 @@ This page tracks the top researchers in language models for software engineering
 - [Retracted on March 14, 2023: Cross-lingual transfer learning for statistical type inference](https://doi.org/10.1145/3533767.3534411), ISSTA 2021
 
 
-
-
 ### [Qing Wang](https://www.semanticscholar.org/author/40326638)
 - [Understanding feature requests by leveraging fuzzy method and linguistic analysis](https://doi.org/10.1109/ASE.2017.8115656), ASE 2017
 - [ISPY: Automatic Issue-Solution Pair Extraction from Community Live Chats](https://doi.org/10.1109/ASE51524.2021.9678894), ASE 2021

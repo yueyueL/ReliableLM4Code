@@ -24,7 +24,7 @@ nav_order: 4
 - **Generative Artificial Intelligence for Software Engineering--A Research Agenda**, 2023, [paper](https://arxiv.org/pdf/2310.18648)
 - **A Survey on Large Language Model (LLM) Security and Privacy: The Good, the Bad, and the Ugly**, 2023, [paper](https://arxiv.org/abs/2312.02003)
 - **Trustworthy and Synergistic Artificial Intelligence for Software Engineering: Vision and Roadmaps**, 2023, [paper](https://arxiv.org/pdf/2309.04142)
-- **Large language models meet NL2Code: A survey, 2023**, [paper](https://aclanthology.org/2023.acl-long.411.pdf)
+- **Large language models meet NL2Code: A survey**, 2023, [paper](https://aclanthology.org/2023.acl-long.411.pdf)
 - **A Survey on Pretrained Language Models for Neural Code Intelligence**, 2022, [paper](https://arxiv.org/abs/2212.10079)
 
 ## General Surveys on AI4SE

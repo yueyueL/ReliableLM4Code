@@ -14,8 +14,6 @@ nav_order: 7
 
 ---
 
-
-
 ## SE Domain (Software Engineering)
 
 ### CCF A/Core A* Conferences
