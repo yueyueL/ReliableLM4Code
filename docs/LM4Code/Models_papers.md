@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Papers across LLMs
-parent: LM4Code_LM4SE
+parent: About LM4Code-LM4SE
 ---
 # Papers across LLMs
 {: .no_toc }

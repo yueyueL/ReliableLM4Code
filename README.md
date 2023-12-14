@@ -1,6 +1,6 @@
 # [ReliableLM4Code](https://yueyuel.github.io/ReliableLM4Code/)
 
-This repository extends from our previous survey paper, "[Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey](https://arxiv.org/abs/2310.17903)". It includes necessary information for our research and a curated collection of LM4Code papers and other resources (datasets, tutorials, etc.). The focus is primarily on papers that use pre-trained models, especially large language models, to improve the reliability of language models in Software Engineering research.
+This repository extends from our recent works, "[Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey](https://arxiv.org/abs/2310.17903)" and "[Large language models for software engineering: A systematic literature review](https://arxiv.org/abs/2308.10620)". It includes necessary information for our research and a curated collection of LM4Code papers and other resources (datasets, tutorials, etc.). The focus is primarily on papers that use pre-trained models, especially large language models, to improve the reliability of language models in Software Engineering research.
 
 For more details, please access this [site](https://yueyuel.github.io/ReliableLM4Code/)
 
@@ -20,14 +20,9 @@ Please feel free to send a pull request to add papers and relevant content that 
 - [Explanable LM4Code](https://yueyuel.github.io/ReliableLM4Code/docs/xai_lm4code/)
 - [Top Researchers in LM4Code](https://yueyuel.github.io/ReliableLM4Code/docs/researchers/)
 - [Relevant Venus](https://yueyuel.github.io/ReliableLM4Code/docs/venus/)
-
+- [LLMs in Securty](https://yueyuel.github.io/ReliableLM4Code/docs/LMinsecurity/)
 
 # Papers
-## Type Inference
-
-- **Dos and Don'ts of Machine Learning in Computer Security** (2022), USENIX Security, D Arp, et al. [[pdf]](https://www.usenix.org/system/files/sec22-arp.pdf)
-- **Machine/deep learning for software engineering: A systematic literature review** (2022), TSE, Simin Wang, et al. [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9772253)
-- **Trustworthy AI: From principles to practices** (2023), arxiv, BO Li, et al. [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3555803)
 
 ## Data Collection and Labeling
 ### *Unbalanced Distribution*

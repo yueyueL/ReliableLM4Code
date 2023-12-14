@@ -1,6 +1,6 @@
 ---
 layout: default
-title: LM4Code_LM4SE
+title: About LM4Code-LM4SE
 nav_order: 3
 has_children: true
 permalink: /docs/LM4Code
