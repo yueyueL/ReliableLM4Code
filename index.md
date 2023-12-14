@@ -13,6 +13,24 @@ Collections of research and resources towards more robust and reliable LLMs for 
 
 This repository extends from our previous survey paper, "[Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey](https://arxiv.org/abs/2310.17903)". It includes necessary information for our research and a curated collection of LM4Code papers and other resources (datasets, tutorials, etc.). The focus is primarily on papers that use pre-trained models, especially large language models, to improve the reliability of language models in Software Engineering research.
 
+
+<button class="btn js-toggle-dark-mode">Dark color scheme</button>
+
+<script>
+const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+
+jtd.addEvent(toggleDarkMode, 'click', function(){
+  if (jtd.getTheme() === 'dark') {
+    jtd.setTheme('light');
+    toggleDarkMode.textContent = 'Dark color scheme';
+  } else {
+    jtd.setTheme('dark');
+    toggleDarkMode.textContent = 'Light color scheme';
+  }
+});
+</script>
+
+
 ## Content
 - [About our survey](https://yueyuel.github.io/ReliableLM4Code/docs/reliable_LM4Code_review)
 - [What is LM4Code?](https://yueyuel.github.io/ReliableLM4Code/docs/LM4Code)
@@ -23,6 +41,7 @@ This repository extends from our previous survey paper, "[Pitfalls in Language M
 - [Explanable LM4Code](https://yueyuel.github.io/ReliableLM4Code/docs/xai_lm4code/)
 - [Top Researchers in LM4Code](https://yueyuel.github.io/ReliableLM4Code/docs/researchers/)
 - [Relevant Venus](https://yueyuel.github.io/ReliableLM4Code/docs/venus/)
+- [LLMs in Securty](https://yueyuel.github.io/ReliableLM4Code/docs/LMinsecurity/)
 
 ## About our survey
 Our survey paper, “Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey”, discusses how Language Models for Code Intelligence (LM4Code) are susceptible to potential pitfalls. These pitfalls can hinder realistic performance and impact their reliability and applicability in real-world deployment.
