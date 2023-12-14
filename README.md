@@ -1,6 +1,6 @@
 # [ReliableLM4Code](https://yueyuel.github.io/ReliableLM4Code/)
 
-This repository extends from our recent works, "[Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey](https://arxiv.org/abs/2310.17903)" and "[Large language models for software engineering: A systematic literature review](https://arxiv.org/abs/2308.10620)". It includes necessary information for our research and a curated collection of LM4Code papers and other resources (datasets, tutorials, etc.). The focus is primarily on papers that use pre-trained models, especially large language models, to improve the reliability of language models in Software Engineering research.
+This repository extends from our recent work, "[Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey](https://arxiv.org/abs/2310.17903)" and "[Large language models for software engineering: A systematic literature review](https://arxiv.org/abs/2308.10620)". It includes necessary information for our research and a curated collection of LM4Code papers and other resources (datasets, tutorials, etc.). The focus is primarily on papers that use pre-trained models, especially large language models, to improve the reliability of language models in Software Engineering research.
 
 For more details, please access this [site](https://yueyuel.github.io/ReliableLM4Code/)
 
