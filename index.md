@@ -14,35 +14,6 @@ Collections of research and resources towards more robust and reliable LLMs for 
 This repository extends from our recent work, "[Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey](https://arxiv.org/abs/2310.17903)" and "[Large language models for software engineering: A systematic literature review](https://arxiv.org/abs/2308.10620)". It includes necessary information for our research and a curated collection of LM4Code papers and other resources (datasets, tutorials, etc.). The focus is primarily on papers that use pre-trained models, especially large language models, to improve the reliability of language models in Software Engineering research.
 
 
-<button class="btn js-toggle-dark-mode">Dark color scheme</button>
-
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
-
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Dark color scheme';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Light color scheme';
-  }
-});
-
-// Event listener for button click
-jtd.addEvent(toggleDarkMode, 'click', switchTheme);
-
-// Apply the stored theme on page load
-document.addEventListener('DOMContentLoaded', (event) => {
-  const storedTheme = localStorage.getItem('theme');
-  if (storedTheme) {
-    jtd.setTheme(storedTheme);
-    toggleDarkMode.textContent = storedTheme === 'dark' ? 'Light color scheme' : 'Dark color scheme';
-  }
-});
-</script>
-
-
 ## Content
 - [About our survey](https://yueyuel.github.io/ReliableLM4Code/docs/reliable_LM4Code_review)
 - [What is LM4Code?](https://yueyuel.github.io/ReliableLM4Code/docs/LM4Code)
